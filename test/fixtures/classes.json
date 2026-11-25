@@ -1,0 +1,38 @@
+[
+ {
+  "code": "1",
+  "longDescription": "1st Class / Comfort",
+  "shortDescription": "1st/comf",
+  "codeType": "TRAVEL_CLASS",
+  "lang": "EN",
+  "listOrder": 1,
+  "remark": null
+ },
+ {
+  "code": "1",
+  "longDescription": "1ª Classe / Conforto",
+  "shortDescription": "1ª/conf",
+  "codeType": "TRAVEL_CLASS",
+  "lang": "PT",
+  "listOrder": 1,
+  "remark": null
+ },
+ {
+  "code": "2",
+  "longDescription": "2nd Class / Tourist",
+  "shortDescription": "2nd/tour",
+  "codeType": "TRAVEL_CLASS",
+  "lang": "EN",
+  "listOrder": 2,
+  "remark": null
+ },
+ {
+  "code": "2",
+  "longDescription": "2ª Classe / Turística",
+  "shortDescription": "2ª/tur",
+  "codeType": "TRAVEL_CLASS",
+  "lang": "PT",
+  "listOrder": 2,
+  "remark": null
+ }
+]

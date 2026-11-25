@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Comboios MCP (unofficial)</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.55 system-ui, -apple-system, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; }
+  h1 { font-size: 26px; margin-bottom: 4px; } h2 { font-size: 18px; margin-top: 32px; }
+  .note { border-left: 4px solid #c78a00; padding: 8px 14px; background: rgba(199,138,0,.08); }
+  code, .url { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .url { display: block; padding: 10px 12px; border: 1px solid rgba(127,127,127,.35); border-radius: 8px; margin: 8px 0; user-select: all; }
+  li { margin: 4px 0; } .muted { opacity: .7; font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>Comboios MCP</h1>
+<p class="muted">An unofficial connector for Portuguese train information, for Claude and other MCP clients.</p>
+
+<p class="note"><strong>Not affiliated with CP – Comboios de Portugal.</strong> It reads the same public data
+cp.pt shows (timetables, fares, live departures, alerts). Data may be incomplete or delayed; check cp.pt
+before you travel.</p>
+
+<h2>Add it to Claude</h2>
+<ol>
+  <li>In Claude, open <strong>Settings → Connectors → Add custom connector</strong>.</li>
+  <li>Paste this URL and save. No sign-in is needed.</li>
+</ol>
+<span class="url" id="mcp-url">https://YOUR-DOMAIN/mcp</span>
+<p class="muted">Then ask, for example: “Próximos comboios de Lisboa Oriente para o Porto amanhã de manhã” or
+“Is the 17:40 Alfa Pendular from Campanhã on time?”</p>
+
+<h2>What it can do</h2>
+<ul>
+  <li>Find stations and their facilities.</li>
+  <li>Search journeys with times, changes and fares (1st and 2nd class).</li>
+  <li>Live departures and arrivals for a station, and the live position and delay of a train.</li>
+  <li>Current service alerts and strikes.</li>
+  <li>Buy tickets on a payment page here, choosing your seat on trains with seat reservation (card, MB WAY or PayPal, issued and charged by CP). For a return trip, each direction is a separate ticket.</li>
+</ul>
+
+<h2>No warranty</h2>
+<p>This service is provided as is, without any warranty. To the extent permitted by law, its operator is not
+liable for any loss or damage from its use, including wrong or outdated information, failed or incorrect
+purchases, missed trains, or problems with CP's services. Tickets, prices, refunds and travel conditions are
+CP's responsibility: for any problem with a purchase, contact CP with your purchase reference.</p>
+
+<h2>Privacy</h2>
+<p>Searching, timetables, live information and alerts need no personal data. Requests are passed to CP's
+public website services; the server keeps short-lived caches of timetable data and standard request logs.</p>
+<p>If you buy a ticket on the payment page, the passenger name(s), email and optional phone and ID document
+you enter are sent to CP to issue the ticket. They are not stored or logged by this service. Card, MB WAY and
+PayPal details are entered in Checkout.com's form, which CP uses, and never reach this service. The ticket is
+issued and charged by CP; for refunds or problems, contact CP with your purchase reference.</p>
+
+<script>
+  document.getElementById("mcp-url").textContent = location.origin + "/mcp";
+</script>
+</body>
+</html>

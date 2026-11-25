@@ -1,0 +1,9 @@
+# Never upload personal or local-only files
+tickets/
+lab/
+.claude/
+test/
+docs/
+scripts/
+*.log
+.env*

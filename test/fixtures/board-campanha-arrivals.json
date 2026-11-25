@@ -1,0 +1,4237 @@
+{
+ "stationStops": [
+  {
+   "trainNumber": 15152,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "08:00",
+   "departureTime": "08:01",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15715,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "08:00",
+   "departureTime": "08:10",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 3000,
+   "trainService": {
+    "code": "R",
+    "designation": "Regional"
+   },
+   "trainOrigin": {
+    "code": "94-7005",
+    "designation": "Valenca"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "08:20",
+   "departureTime": null,
+   "platform": "12",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15609,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "08:21",
+   "departureTime": null,
+   "platform": "8",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15155,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "08:24",
+   "departureTime": "08:25",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15510,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "08:25",
+   "departureTime": "08:26",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15210,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "08:34",
+   "departureTime": "08:35",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15911,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "08:35",
+   "departureTime": "08:41",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15513,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "08:39",
+   "departureTime": "08:40",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 890,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "08:40",
+   "departureTime": "08:41",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 831,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-64113",
+    "designation": "Figueira da Foz"
+   },
+   "trainDestination": {
+    "code": "94-7005",
+    "designation": "Valenca"
+   },
+   "arrivalTime": "08:49",
+   "departureTime": "08:50",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15904,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "08:49",
+   "departureTime": "08:55",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15213,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "08:54",
+   "departureTime": "08:55",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15406,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-8318",
+    "designation": "Penafiel"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "08:55",
+   "departureTime": "08:56",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15719,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "09:00",
+   "departureTime": "09:10",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15214,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "09:10",
+   "departureTime": "09:11",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 850,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-7005",
+    "designation": "Valenca"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "09:15",
+   "departureTime": null,
+   "platform": "12",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15613,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "09:20",
+   "departureTime": "09:25",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 893,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "09:29",
+   "departureTime": "09:30",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15514,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "09:30",
+   "departureTime": "09:31",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15515,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "09:34",
+   "departureTime": "09:35",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15915,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "09:35",
+   "departureTime": "09:41",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15218,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "09:40",
+   "departureTime": "09:41",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 131,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "09:48",
+   "departureTime": "09:50",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15908,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "09:49",
+   "departureTime": "09:55",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15215,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "09:54",
+   "departureTime": "09:55",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15160,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "10:00",
+   "departureTime": "10:01",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15723,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "10:05",
+   "departureTime": "10:10",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15516,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "10:20",
+   "departureTime": "10:21",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15617,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "10:20",
+   "departureTime": "10:30",
+   "platform": "3",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 420,
+   "trainService": {
+    "code": "IN",
+    "designation": "Internacionais"
+   },
+   "trainOrigin": {
+    "code": "71-22308",
+    "designation": "Vigo-Guixar"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "10:24",
+   "departureTime": null,
+   "platform": "13",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15159,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "10:24",
+   "departureTime": "10:25",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15919,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "10:35",
+   "departureTime": "10:41",
+   "platform": "8",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15220,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "10:40",
+   "departureTime": "10:41",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 720,
+   "trainService": {
+    "code": "IC",
+    "designation": "Intercidades"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "arrivalTime": "10:44",
+   "departureTime": "10:45",
+   "platform": "6",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15519,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "10:44",
+   "departureTime": "10:45",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15217,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "10:49",
+   "departureTime": "10:50",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15912,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "10:49",
+   "departureTime": "10:55",
+   "platform": "8",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 121,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "10:55",
+   "departureTime": null,
+   "platform": "7",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15725,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "11:00",
+   "departureTime": "11:10",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15162,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "11:05",
+   "departureTime": "11:06",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 892,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "11:10",
+   "departureTime": null,
+   "platform": "12",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 852,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-7005",
+    "designation": "Valenca"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "11:18",
+   "departureTime": "11:20",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15621,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "11:20",
+   "departureTime": "11:30",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15520,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "11:24",
+   "departureTime": "11:25",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15923,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "11:35",
+   "departureTime": "11:41",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15521,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "11:39",
+   "departureTime": "11:40",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15222,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "11:40",
+   "departureTime": "11:41",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15219,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "11:49",
+   "departureTime": "11:50",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15916,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "11:49",
+   "departureTime": "11:55",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15727,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "12:00",
+   "departureTime": "12:10",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15522,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "12:20",
+   "departureTime": "12:21",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15623,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "12:20",
+   "departureTime": "12:25",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15163,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "12:24",
+   "departureTime": "12:25",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15525,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "12:34",
+   "departureTime": "12:35",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15927,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "12:35",
+   "departureTime": "12:41",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15224,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "12:40",
+   "departureTime": "12:41",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 721,
+   "trainService": {
+    "code": "IC",
+    "designation": "Intercidades"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "12:43",
+   "departureTime": "12:45",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 182,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-73007",
+    "designation": "Faro"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "12:48",
+   "departureTime": null,
+   "platform": "7",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15223,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "12:49",
+   "departureTime": "12:50",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15920,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "12:49",
+   "departureTime": "12:55",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15164,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "13:00",
+   "departureTime": "13:01",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15731,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "13:00",
+   "departureTime": "13:10",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 853,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-7005",
+    "designation": "Valenca"
+   },
+   "arrivalTime": "13:09",
+   "departureTime": "13:10",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15625,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "13:20",
+   "departureTime": "13:25",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 895,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "13:29",
+   "departureTime": "13:30",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15526,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "13:30",
+   "departureTime": "13:31",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15226,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "13:34",
+   "departureTime": "13:35",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15931,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "13:35",
+   "departureTime": "13:41",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 132,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "arrivalTime": "13:38",
+   "departureTime": "13:40",
+   "platform": "7",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15527,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "13:39",
+   "departureTime": "13:40",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15225,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "13:49",
+   "departureTime": "13:50",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15924,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "13:49",
+   "departureTime": "13:55",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15735,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "14:00",
+   "departureTime": "14:10",
+   "platform": "4",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15629,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "14:20",
+   "departureTime": "14:30",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15165,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "14:24",
+   "departureTime": "14:25",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15528,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "14:25",
+   "departureTime": "14:26",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 894,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "14:35",
+   "departureTime": null,
+   "platform": "13",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15935,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "14:35",
+   "departureTime": "14:41",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15531,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "14:39",
+   "departureTime": "14:40",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15230,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "14:40",
+   "departureTime": "14:41",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 621,
+   "trainService": {
+    "code": "IC",
+    "designation": "Intercidades"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "14:43",
+   "departureTime": "14:45",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 722,
+   "trainService": {
+    "code": "IC",
+    "designation": "Intercidades"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "arrivalTime": "14:44",
+   "departureTime": "14:45",
+   "platform": "7",
+   "delay": 25,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "14:42",
+   "ETD": "14:54"
+  },
+  {
+   "trainNumber": 15227,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "14:49",
+   "departureTime": "14:50",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15928,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "14:49",
+   "departureTime": "14:55",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15168,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "15:00",
+   "departureTime": "15:01",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15737,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "15:00",
+   "departureTime": "15:10",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15633,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "15:20",
+   "departureTime": "15:25",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15532,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "15:30",
+   "departureTime": "15:31",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15533,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "15:34",
+   "departureTime": "15:35",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15939,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "15:35",
+   "departureTime": "15:41",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15232,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "15:40",
+   "departureTime": "15:41",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15229,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "15:49",
+   "departureTime": "15:50",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15932,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "15:49",
+   "departureTime": "15:55",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15739,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "16:00",
+   "departureTime": "16:10",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 854,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-7005",
+    "designation": "Valenca"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "16:20",
+   "departureTime": null,
+   "platform": "15",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15635,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "16:20",
+   "departureTime": "16:30",
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15167,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "16:24",
+   "departureTime": "16:25",
+   "platform": "1",
+   "delay": 1,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "16:23",
+   "ETD": "16:25"
+  },
+  {
+   "trainNumber": 15534,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "16:25",
+   "departureTime": "16:26",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15537,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "16:34",
+   "departureTime": "16:35",
+   "platform": "1",
+   "delay": 0,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "16:35",
+   "ETD": "16:36"
+  },
+  {
+   "trainNumber": 15943,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "16:35",
+   "departureTime": "16:41",
+   "platform": "9",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15234,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "16:40",
+   "departureTime": "16:41",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 133,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "16:48",
+   "departureTime": "16:50",
+   "platform": "6",
+   "delay": 41,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "17:22",
+   "ETD": "17:25"
+  },
+  {
+   "trainNumber": 15936,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "16:49",
+   "departureTime": "16:55",
+   "platform": "9",
+   "delay": 7,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "16:52",
+   "ETD": "16:56"
+  },
+  {
+   "trainNumber": 15233,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "16:54",
+   "departureTime": "16:55",
+   "platform": "1",
+   "delay": 3,
+   "occupancy": 2,
+   "supression": null,
+   "ETA": "16:54",
+   "ETD": "16:55"
+  },
+  {
+   "trainNumber": 15170,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "17:00",
+   "departureTime": "17:01",
+   "platform": "2",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15743,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "17:00",
+   "departureTime": "17:10",
+   "platform": "5",
+   "delay": 10,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "17:00",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15637,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "17:20",
+   "departureTime": "17:25",
+   "platform": "4",
+   "delay": 21,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "17:35",
+   "ETD": "17:40"
+  },
+  {
+   "trainNumber": 15538,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "17:30",
+   "departureTime": "17:31",
+   "platform": "2",
+   "delay": 1,
+   "occupancy": 3,
+   "supression": null,
+   "ETA": "17:31",
+   "ETD": "17:32"
+  },
+  {
+   "trainNumber": 15539,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "17:34",
+   "departureTime": "17:35",
+   "platform": "1",
+   "delay": 0,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "17:33",
+   "ETD": "17:35"
+  },
+  {
+   "trainNumber": 896,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "17:35",
+   "departureTime": null,
+   "platform": "13",
+   "delay": 7,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "17:42",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15947,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "17:35",
+   "departureTime": "17:41",
+   "platform": "9",
+   "delay": 10,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "17:50",
+   "ETD": "17:52"
+  },
+  {
+   "trainNumber": 15236,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "17:40",
+   "departureTime": "17:41",
+   "platform": "2",
+   "delay": 0,
+   "occupancy": 3,
+   "supression": null,
+   "ETA": "17:39",
+   "ETD": "17:41"
+  },
+  {
+   "trainNumber": 620,
+   "trainService": {
+    "code": "IC",
+    "designation": "Intercidades"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "arrivalTime": "17:44",
+   "departureTime": "17:45",
+   "platform": "6",
+   "delay": 27,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "17:45",
+   "ETD": "17:51"
+  },
+  {
+   "trainNumber": 15237,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "17:49",
+   "departureTime": "17:50",
+   "platform": "1",
+   "delay": 5,
+   "occupancy": 2,
+   "supression": null,
+   "ETA": "17:51",
+   "ETD": "17:52"
+  },
+  {
+   "trainNumber": 15940,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "17:49",
+   "departureTime": "17:55",
+   "platform": "9",
+   "delay": 5,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "17:52",
+   "ETD": "17:55"
+  },
+  {
+   "trainNumber": 15747,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "18:00",
+   "departureTime": "18:10",
+   "platform": "4",
+   "delay": 10,
+   "occupancy": 3,
+   "supression": null,
+   "ETA": "17:59",
+   "ETD": "18:10"
+  },
+  {
+   "trainNumber": 15423,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-8318",
+    "designation": "Penafiel"
+   },
+   "arrivalTime": "18:04",
+   "departureTime": "18:05",
+   "platform": "1",
+   "delay": 0,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "18:04",
+   "ETD": "18:05"
+  },
+  {
+   "trainNumber": 15641,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "18:20",
+   "departureTime": "18:30",
+   "platform": "4",
+   "delay": 0,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "18:26",
+   "ETD": "18:30"
+  },
+  {
+   "trainNumber": 15540,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "18:25",
+   "departureTime": "18:26",
+   "platform": "2",
+   "delay": 1,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "18:23",
+   "ETD": "18:26"
+  },
+  {
+   "trainNumber": 15171,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "18:29",
+   "departureTime": "18:30",
+   "platform": "1",
+   "delay": 5,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "18:29",
+   "ETD": "18:30"
+  },
+  {
+   "trainNumber": 15543,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "18:34",
+   "departureTime": "18:35",
+   "platform": "1",
+   "delay": 0,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "18:33",
+   "ETD": "18:35"
+  },
+  {
+   "trainNumber": 15951,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "18:35",
+   "departureTime": "18:41",
+   "platform": "9",
+   "delay": 8,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "18:42",
+   "ETD": "18:43"
+  },
+  {
+   "trainNumber": 134,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "arrivalTime": "18:38",
+   "departureTime": "18:40",
+   "platform": "7",
+   "delay": 32,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "18:32",
+   "ETD": "18:57"
+  },
+  {
+   "trainNumber": 523,
+   "trainService": {
+    "code": "IC",
+    "designation": "Intercidades"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "18:43",
+   "departureTime": null,
+   "platform": "5",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 135,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "18:48",
+   "departureTime": "18:50",
+   "platform": "4",
+   "delay": 25,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "19:10",
+   "ETD": "19:13"
+  },
+  {
+   "trainNumber": 15944,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "arrivalTime": "18:49",
+   "departureTime": "18:55",
+   "platform": "9",
+   "delay": 9,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "18:52",
+   "ETD": "18:59"
+  },
+  {
+   "trainNumber": 15240,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "18:50",
+   "departureTime": "18:51",
+   "platform": "2",
+   "delay": 1,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "18:50",
+   "ETD": "18:51"
+  },
+  {
+   "trainNumber": 15241,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "18:54",
+   "departureTime": "18:55",
+   "platform": "1",
+   "delay": 0,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "18:54",
+   "ETD": "18:56"
+  },
+  {
+   "trainNumber": 15765,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "19:00",
+   "departureTime": "19:10",
+   "platform": "4",
+   "delay": 8,
+   "occupancy": 3,
+   "supression": null,
+   "ETA": "19:01",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15429,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-8318",
+    "designation": "Penafiel"
+   },
+   "arrivalTime": "19:04",
+   "departureTime": "19:05",
+   "platform": "1",
+   "delay": 0,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "19:03",
+   "ETD": "19:05"
+  },
+  {
+   "trainNumber": 15174,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "19:05",
+   "departureTime": "19:06",
+   "platform": "2",
+   "delay": 1,
+   "occupancy": 3,
+   "supression": null,
+   "ETA": "19:06",
+   "ETD": "19:07"
+  },
+  {
+   "trainNumber": 15645,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "19:15",
+   "departureTime": "19:25",
+   "platform": "4",
+   "delay": 19,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "19:27",
+   "ETD": "19:37"
+  },
+  {
+   "trainNumber": 15243,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "19:19",
+   "departureTime": "19:20",
+   "platform": "1",
+   "delay": 4,
+   "occupancy": 2,
+   "supression": null,
+   "ETA": "19:19",
+   "ETD": "19:24"
+  },
+  {
+   "trainNumber": 15544,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "19:20",
+   "departureTime": "19:21",
+   "platform": "2",
+   "delay": 1,
+   "occupancy": 2,
+   "supression": null,
+   "ETA": "19:19",
+   "ETD": "19:21"
+  },
+  {
+   "trainNumber": 899,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "19:29",
+   "departureTime": "19:30",
+   "platform": "1",
+   "delay": 4,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "19:29",
+   "ETD": "19:34"
+  },
+  {
+   "trainNumber": 15547,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "19:34",
+   "departureTime": "19:35",
+   "platform": "1",
+   "delay": 4,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "19:37",
+   "ETD": "19:38"
+  },
+  {
+   "trainNumber": 422,
+   "trainService": {
+    "code": "IN",
+    "designation": "Internacionais"
+   },
+   "trainOrigin": {
+    "code": "71-22308",
+    "designation": "Vigo-Guixar"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "19:35",
+   "departureTime": null,
+   "platform": "12",
+   "delay": 0,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "19:28",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15948,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "19:35",
+   "departureTime": null,
+   "platform": "7",
+   "delay": 5,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "19:39",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15955,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "19:35",
+   "departureTime": "19:41",
+   "platform": "9",
+   "delay": 6,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "19:46",
+   "ETD": "19:47"
+  },
+  {
+   "trainNumber": 15244,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "19:45",
+   "departureTime": "19:46",
+   "platform": "2",
+   "delay": 2,
+   "occupancy": 3,
+   "supression": null,
+   "ETA": "19:47",
+   "ETD": "19:48"
+  },
+  {
+   "trainNumber": 127,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "19:48",
+   "departureTime": null,
+   "platform": "6",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15245,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "19:49",
+   "departureTime": "19:50",
+   "platform": "1",
+   "delay": 5,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "19:52",
+   "ETD": "19:54"
+  },
+  {
+   "trainNumber": 15426,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-8318",
+    "designation": "Penafiel"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "19:55",
+   "departureTime": "19:56",
+   "platform": "2",
+   "delay": 0,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "19:54",
+   "ETD": "19:56"
+  },
+  {
+   "trainNumber": 15755,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "19:55",
+   "departureTime": "20:00",
+   "platform": "4",
+   "delay": 15,
+   "occupancy": 2,
+   "supression": null,
+   "ETA": "19:55",
+   "ETD": "20:00"
+  },
+  {
+   "trainNumber": 830,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-7005",
+    "designation": "Valenca"
+   },
+   "trainDestination": {
+    "code": "94-64113",
+    "designation": "Figueira da Foz"
+   },
+   "arrivalTime": "20:14",
+   "departureTime": "20:30",
+   "platform": "6",
+   "delay": 23,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "20:29",
+   "ETD": "20:33"
+  },
+  {
+   "trainNumber": 15546,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "20:20",
+   "departureTime": "20:21",
+   "platform": "2",
+   "delay": 0,
+   "occupancy": 2,
+   "supression": null,
+   "ETA": "20:20",
+   "ETD": "20:21"
+  },
+  {
+   "trainNumber": 15649,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "20:20",
+   "departureTime": "20:25",
+   "platform": "5",
+   "delay": 4,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "20:27",
+   "ETD": "20:28"
+  },
+  {
+   "trainNumber": 15177,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "20:24",
+   "departureTime": "20:25",
+   "platform": "1",
+   "delay": 0,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "20:24",
+   "ETD": "20:25"
+  },
+  {
+   "trainNumber": 15549,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "20:34",
+   "departureTime": "20:35",
+   "platform": "1",
+   "delay": 1,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "20:35",
+   "ETD": "20:36"
+  },
+  {
+   "trainNumber": 15952,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "20:35",
+   "departureTime": null,
+   "platform": "7",
+   "delay": 4,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "20:38",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15957,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38299",
+    "designation": "Ovar"
+   },
+   "trainDestination": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "arrivalTime": "20:35",
+   "departureTime": "20:41",
+   "platform": "9",
+   "delay": 1,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "20:42",
+   "ETD": "20:43"
+  },
+  {
+   "trainNumber": 136,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "arrivalTime": "20:38",
+   "departureTime": "20:40",
+   "platform": "6",
+   "delay": 18,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "20:38",
+   "ETD": "20:43"
+  },
+  {
+   "trainNumber": 731,
+   "trainService": {
+    "code": "IC",
+    "designation": "Intercidades"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-7005",
+    "designation": "Valenca"
+   },
+   "arrivalTime": "20:43",
+   "departureTime": "20:53",
+   "platform": "4",
+   "delay": 23,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "20:57",
+   "ETD": "21:07"
+  },
+  {
+   "trainNumber": 137,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "20:48",
+   "departureTime": "20:50",
+   "platform": "5",
+   "delay": 15,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "21:00",
+   "ETD": "21:03"
+  },
+  {
+   "trainNumber": 15246,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "20:50",
+   "departureTime": "20:51",
+   "platform": "2",
+   "delay": 6,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "20:54",
+   "ETD": "20:55"
+  },
+  {
+   "trainNumber": 15757,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "20:55",
+   "departureTime": "21:00",
+   "platform": "6",
+   "delay": 6,
+   "occupancy": 2,
+   "supression": null,
+   "ETA": "20:59",
+   "ETD": "21:02"
+  },
+  {
+   "trainNumber": 15180,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "21:00",
+   "departureTime": "21:01",
+   "platform": "2",
+   "delay": 5,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "21:03",
+   "ETD": "21:04"
+  },
+  {
+   "trainNumber": 898,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "21:05",
+   "departureTime": "21:06",
+   "platform": "2",
+   "delay": 3,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "21:06",
+   "ETD": "21:07"
+  },
+  {
+   "trainNumber": 15247,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "21:09",
+   "departureTime": "21:10",
+   "platform": "1",
+   "delay": 0,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "21:09",
+   "ETD": "21:10"
+  },
+  {
+   "trainNumber": 15179,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "21:24",
+   "departureTime": "21:25",
+   "platform": "1",
+   "delay": 2,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "21:24",
+   "ETD": "21:25"
+  },
+  {
+   "trainNumber": 15548,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "21:25",
+   "departureTime": "21:26",
+   "platform": "2",
+   "delay": 2,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "21:26",
+   "ETD": "21:27"
+  },
+  {
+   "trainNumber": 15551,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "21:34",
+   "departureTime": "21:35",
+   "platform": "1",
+   "delay": 1,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "21:35",
+   "ETD": "21:36"
+  },
+  {
+   "trainNumber": 15653,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "21:34",
+   "departureTime": "21:40",
+   "platform": "4",
+   "delay": 0,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "21:35",
+   "ETD": "21:40"
+  },
+  {
+   "trainNumber": 15954,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "21:35",
+   "departureTime": null,
+   "platform": "9",
+   "delay": 1,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "21:36",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15248,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "21:44",
+   "departureTime": "21:45",
+   "platform": "2",
+   "delay": 0,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "21:44",
+   "ETD": "21:45"
+  },
+  {
+   "trainNumber": 186,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-73007",
+    "designation": "Faro"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "21:48",
+   "departureTime": null,
+   "platform": "6",
+   "delay": 30,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "22:17",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15759,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "22:05",
+   "departureTime": "22:10",
+   "platform": "4",
+   "delay": 9,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "22:05",
+   "ETD": "22:10"
+  },
+  {
+   "trainNumber": 15550,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "22:25",
+   "departureTime": "22:26",
+   "platform": "2",
+   "delay": 1,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "22:25",
+   "ETD": "22:26"
+  },
+  {
+   "trainNumber": 4011,
+   "trainService": {
+    "code": "R",
+    "designation": "Regional"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "22:29",
+   "departureTime": "22:30",
+   "platform": "1",
+   "delay": 3,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "22:29",
+   "ETD": "22:32"
+  },
+  {
+   "trainNumber": 856,
+   "trainService": {
+    "code": "IR",
+    "designation": "InterRegional"
+   },
+   "trainOrigin": {
+    "code": "94-7005",
+    "designation": "Valenca"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "22:30",
+   "departureTime": null,
+   "platform": "3",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15655,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "22:34",
+   "departureTime": "22:40",
+   "platform": "4",
+   "delay": 13,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "22:50",
+   "ETD": "22:52"
+  },
+  {
+   "trainNumber": 15956,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "22:35",
+   "departureTime": null,
+   "platform": "9",
+   "delay": 0,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "22:35",
+   "ETD": null
+  },
+  {
+   "trainNumber": 723,
+   "trainService": {
+    "code": "IC",
+    "designation": "Intercidades"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "22:43",
+   "departureTime": "22:45",
+   "platform": "5",
+   "delay": 18,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "23:01",
+   "ETD": "23:03"
+  },
+  {
+   "trainNumber": 15250,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "22:44",
+   "departureTime": "22:45",
+   "platform": "2",
+   "delay": 2,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "22:45",
+   "ETD": "22:46"
+  },
+  {
+   "trainNumber": 129,
+   "trainService": {
+    "code": "AP",
+    "designation": "Alfa Pendular"
+   },
+   "trainOrigin": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "22:48",
+   "departureTime": null,
+   "platform": "7",
+   "delay": 19,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "23:06",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15761,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrivalTime": "22:55",
+   "departureTime": "23:00",
+   "platform": "4",
+   "delay": 2,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "22:56",
+   "ETD": "23:01"
+  },
+  {
+   "trainNumber": 15184,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "23:00",
+   "departureTime": "23:01",
+   "platform": "2",
+   "delay": 1,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "23:00",
+   "ETD": "23:01"
+  },
+  {
+   "trainNumber": 15251,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-29157",
+    "designation": "Braga"
+   },
+   "arrivalTime": "23:14",
+   "departureTime": "23:15",
+   "platform": "1",
+   "delay": 0,
+   "occupancy": 2,
+   "supression": null,
+   "ETA": "23:13",
+   "ETD": "23:15"
+  },
+  {
+   "trainNumber": 15183,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-24000",
+    "designation": "Guimaraes"
+   },
+   "arrivalTime": "23:24",
+   "departureTime": "23:25",
+   "platform": "1",
+   "delay": 1,
+   "occupancy": null,
+   "supression": null,
+   "ETA": "23:24",
+   "ETD": "23:26"
+  },
+  {
+   "trainNumber": 15553,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "trainDestination": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "arrivalTime": "23:34",
+   "departureTime": "23:35",
+   "platform": "1",
+   "delay": null,
+   "occupancy": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "trainNumber": 15657,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "23:34",
+   "departureTime": "23:40",
+   "platform": "4",
+   "delay": 5,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "23:39",
+   "ETD": "23:45"
+  },
+  {
+   "trainNumber": 15958,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-21071",
+    "designation": "Leca do Balio"
+   },
+   "trainDestination": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrivalTime": "23:35",
+   "departureTime": null,
+   "platform": "9",
+   "delay": 1,
+   "occupancy": 0,
+   "supression": null,
+   "ETA": "23:36",
+   "ETD": null
+  },
+  {
+   "trainNumber": 15552,
+   "trainService": {
+    "code": "U",
+    "designation": "Urbano"
+   },
+   "trainOrigin": {
+    "code": "94-9001",
+    "designation": "Marco de Canaveses"
+   },
+   "trainDestination": {
+    "code": "94-1008",
+    "designation": "Porto Sao Bento"
+   },
+   "arrivalTime": "23:35",
+   "departureTime": "23:36",
+   "platform": "2",
+   "delay": 1,
+   "occupancy": 1,
+   "supression": null,
+   "ETA": "23:36",
+   "ETD": "23:37"
+  }
+ ],
+ "messages": []
+}

@@ -1,0 +1,1157 @@
+{
+ "from": {
+  "code": "94-30007",
+  "name": "Lisboa Santa Apolónia"
+ },
+ "to": {
+  "code": "94-2006",
+  "name": "Porto Campanhã"
+ },
+ "date": "2026-12-04",
+ "return_date": "2026-12-06",
+ "travel_class": 2,
+ "passengers": 1,
+ "buy_note": "To buy, give the user the buy_url of the chosen option (our payment page, where they can also pick their seat on trains with seat reservation). For a return trip, each direction is a separate ticket: give the outward and the return option's buy_url. Seat availability is only visible on that page, after the purchase starts.",
+ "prices_note": "prices_eur are per passenger; total_eur is shown when passengers > 1",
+ "options": [
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out131",
+   "departure": "07:00",
+   "arrival": "09:48",
+   "arrives_next_day": false,
+   "duration": "02h48",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7,
+    "promo_non_refundable": 21.5
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 4,
+     "eur": 21.5,
+     "constraints": [
+      "NON_REFUNDABLE"
+     ]
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 104,
+     "eur": 21.5,
+     "constraints": [
+      "NON_REFUNDABLE"
+     ]
+    }
+   ],
+   "legs": [
+    {
+     "train": 131,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Lisboa Santa Apolónia",
+     "from_code": "94-30007",
+     "to": "Porto Campanhã",
+     "to_code": "94-2006",
+     "dep": "07:00",
+     "arr": "09:48",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 6
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out131"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out121",
+   "departure": "08:00",
+   "arrival": "10:55",
+   "arrives_next_day": false,
+   "duration": "02h55",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 121,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Lisboa Santa Apolónia",
+     "from_code": "94-30007",
+     "to": "Porto Campanhã",
+     "to_code": "94-2006",
+     "dep": "08:00",
+     "arr": "10:55",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 10
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out121"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out123",
+   "departure": "09:00",
+   "arrival": "11:48",
+   "arrives_next_day": false,
+   "duration": "02h48",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 123,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Lisboa Santa Apolónia",
+     "from_code": "94-30007",
+     "to": "Porto Campanhã",
+     "to_code": "94-2006",
+     "dep": "09:00",
+     "arr": "11:48",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 6
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out123"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out721",
+   "departure": "09:30",
+   "arrival": "12:43",
+   "arrives_next_day": false,
+   "duration": "03h13",
+   "services": [
+    "IC"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 28.05
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 28.05,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 28.05,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 721,
+     "service": "IC",
+     "service_name": "Intercidades",
+     "from": "Lisboa Santa Apolónia",
+     "from_code": "94-30007",
+     "to": "Porto Campanhã",
+     "to_code": "94-2006",
+     "dep": "09:30",
+     "arr": "12:43",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 13
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out721"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out4411+182",
+   "departure": "09:45",
+   "arrival": "12:48",
+   "arrives_next_day": false,
+   "duration": "03h03",
+   "services": [
+    "R",
+    "AP"
+   ],
+   "transfers": 1,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 4411,
+     "service": "R",
+     "service_name": "Regional",
+     "from": "Lisboa Santa Apolónia",
+     "from_code": "94-30007",
+     "to": "Lisboa Oriente",
+     "to_code": "94-31039",
+     "dep": "09:45",
+     "arr": "09:52",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 2
+    },
+    {
+     "train": 182,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Lisboa Oriente",
+     "from_code": "94-31039",
+     "to": "Porto Campanhã",
+     "to_code": "94-2006",
+     "dep": "10:09",
+     "arr": "12:48",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 5
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_out4411%2B182"
+  }
+ ],
+ "return_options": [
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret180+16008",
+   "departure": "05:40",
+   "arrival": "08:55",
+   "arrives_next_day": false,
+   "duration": "03h15",
+   "services": [
+    "AP",
+    "U"
+   ],
+   "transfers": 1,
+   "saleable_online": false,
+   "prices_eur": {
+    "regular": 35.7,
+    "promo_non_refundable": 16
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 4,
+     "eur": 16,
+     "constraints": [
+      "NON_REFUNDABLE"
+     ]
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 104,
+     "eur": 16,
+     "constraints": [
+      "NON_REFUNDABLE"
+     ]
+    }
+   ],
+   "legs": [
+    {
+     "train": 180,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Oriente",
+     "to_code": "94-31039",
+     "dep": "05:40",
+     "arr": "08:22",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 5
+    },
+    {
+     "train": 16008,
+     "service": "U",
+     "service_name": "Urbano",
+     "from": "Lisboa Oriente",
+     "from_code": "94-31039",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "08:45",
+     "arr": "08:55",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 3
+    }
+   ]
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret130",
+   "departure": "06:40",
+   "arrival": "09:30",
+   "arrives_next_day": false,
+   "duration": "02h50",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7,
+    "promo_non_refundable": 21.5
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 4,
+     "eur": 21.5,
+     "constraints": [
+      "NON_REFUNDABLE"
+     ]
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 104,
+     "eur": 21.5,
+     "constraints": [
+      "NON_REFUNDABLE"
+     ]
+    }
+   ],
+   "legs": [
+    {
+     "train": 130,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "06:40",
+     "arr": "09:30",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 6
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret130"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret522",
+   "departure": "08:45",
+   "arrival": "12:00",
+   "arrives_next_day": false,
+   "duration": "03h15",
+   "services": [
+    "IC"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 28.05
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 28.05,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 28.05,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 522,
+     "service": "IC",
+     "service_name": "Intercidades",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "08:45",
+     "arr": "12:00",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 13
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret522"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret720",
+   "departure": "10:45",
+   "arrival": "14:00",
+   "arrives_next_day": false,
+   "duration": "03h15",
+   "services": [
+    "IC"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 28.05
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 28.05,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 28.05,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 720,
+     "service": "IC",
+     "service_name": "Intercidades",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "10:45",
+     "arr": "14:00",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 13
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret720"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret122",
+   "departure": "11:40",
+   "arrival": "14:30",
+   "arrives_next_day": false,
+   "duration": "02h50",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 122,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "11:40",
+     "arr": "14:30",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 6
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret122"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret524",
+   "departure": "12:45",
+   "arrival": "16:00",
+   "arrives_next_day": false,
+   "duration": "03h15",
+   "services": [
+    "IC"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 28.05
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 28.05,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 28.05,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 524,
+     "service": "IC",
+     "service_name": "Intercidades",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "12:45",
+     "arr": "16:00",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 13
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret524"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret132",
+   "departure": "13:40",
+   "arrival": "16:30",
+   "arrives_next_day": false,
+   "duration": "02h50",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 132,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "13:40",
+     "arr": "16:30",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 6
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret132"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret184+16030",
+   "departure": "14:40",
+   "arrival": "17:55",
+   "arrives_next_day": false,
+   "duration": "03h15",
+   "services": [
+    "AP",
+    "U"
+   ],
+   "transfers": 1,
+   "saleable_online": false,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 184,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Oriente",
+     "to_code": "94-31039",
+     "dep": "14:40",
+     "arr": "17:22",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 5
+    },
+    {
+     "train": 16030,
+     "service": "U",
+     "service_name": "Urbano",
+     "from": "Lisboa Oriente",
+     "from_code": "94-31039",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "17:45",
+     "arr": "17:55",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 3
+    }
+   ]
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret722",
+   "departure": "14:45",
+   "arrival": "18:00",
+   "arrives_next_day": false,
+   "duration": "03h15",
+   "services": [
+    "IC"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 28.05
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 28.05,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 28.05,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 722,
+     "service": "IC",
+     "service_name": "Intercidades",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "14:45",
+     "arr": "18:00",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 13
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret722"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret124",
+   "departure": "16:40",
+   "arrival": "19:30",
+   "arrives_next_day": false,
+   "duration": "02h50",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 124,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "16:40",
+     "arr": "19:30",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 6
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret124"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret526",
+   "departure": "16:45",
+   "arrival": "20:00",
+   "arrives_next_day": false,
+   "duration": "03h15",
+   "services": [
+    "IC"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 28.05
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 28.05,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 28.05,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 526,
+     "service": "IC",
+     "service_name": "Intercidades",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "16:45",
+     "arr": "20:00",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 13
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret526"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret126",
+   "departure": "17:40",
+   "arrival": "20:40",
+   "arrives_next_day": false,
+   "duration": "03h00",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 126,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "17:40",
+     "arr": "20:40",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 10
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret126"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret620",
+   "departure": "17:45",
+   "arrival": "21:00",
+   "arrives_next_day": false,
+   "duration": "03h15",
+   "services": [
+    "IC"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 28.05
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 28.05,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 28.05,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 620,
+     "service": "IC",
+     "service_name": "Intercidades",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "17:45",
+     "arr": "21:00",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 13
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret620"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret134",
+   "departure": "18:40",
+   "arrival": "21:30",
+   "arrives_next_day": false,
+   "duration": "02h50",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 134,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "18:40",
+     "arr": "21:30",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 6
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret134"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret528",
+   "departure": "19:45",
+   "arrival": "23:00",
+   "arrives_next_day": false,
+   "duration": "03h15",
+   "services": [
+    "IC"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 28.05
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 28.05,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 28.05,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 528,
+     "service": "IC",
+     "service_name": "Intercidades",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "19:45",
+     "arr": "23:00",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 13
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret528"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret820",
+   "departure": "19:54",
+   "arrival": "23:50",
+   "arrives_next_day": false,
+   "duration": "03h56",
+   "services": [
+    "IR"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 22.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 22.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 22.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 820,
+     "service": "IR",
+     "service_name": "InterRegional",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "19:54",
+     "arr": "23:50",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 16
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret820"
+  },
+  {
+   "id": "2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret136",
+   "departure": "20:40",
+   "arrival": "23:30",
+   "arrives_next_day": false,
+   "duration": "02h50",
+   "services": [
+    "AP"
+   ],
+   "transfers": 0,
+   "saleable_online": true,
+   "prices_eur": {
+    "regular": 35.7
+   },
+   "raw_prices": [
+    {
+     "travel_class": 2,
+     "price_type": 1,
+     "eur": 35.7,
+     "constraints": []
+    },
+    {
+     "travel_class": 2,
+     "price_type": 100,
+     "eur": 35.7,
+     "constraints": []
+    }
+   ],
+   "legs": [
+    {
+     "train": 136,
+     "service": "AP",
+     "service_name": "Alfa Pendular",
+     "from": "Porto Campanhã",
+     "from_code": "94-2006",
+     "to": "Lisboa Santa Apolónia",
+     "to_code": "94-30007",
+     "dep": "20:40",
+     "arr": "23:30",
+     "platform": null,
+     "arrival_platform": null,
+     "delay_min": null,
+     "stops": 6
+    }
+   ],
+   "buy_url": "https://comboios-mcp.vercel.app/comprar?o=2026-12-04_94-30007_94-2006_c2_p1_r2026-12-06_ret136"
+  }
+ ],
+ "messages": [
+  {
+   "type": "WARNING",
+   "text": "Alfa Pendular 180 com transbordos rodoviários até 20 dezembro. Consulte Avisos"
+  }
+ ]
+}

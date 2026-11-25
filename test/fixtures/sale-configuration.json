@@ -1,0 +1,1891 @@
+{
+ "configCodes": [
+  {
+   "code": "AP",
+   "designation": "Alfa Pendular",
+   "isDefault": false,
+   "listOrder": 1,
+   "status": true,
+   "type": "SERVICE"
+  },
+  {
+   "code": "IC",
+   "designation": "Intercidades",
+   "isDefault": false,
+   "listOrder": 2,
+   "status": true,
+   "type": "SERVICE"
+  },
+  {
+   "code": "IR-M",
+   "designation": "InterRegional (1ª e 2ª classe)",
+   "isDefault": false,
+   "listOrder": 3,
+   "status": true,
+   "type": "SERVICE"
+  },
+  {
+   "code": "IR",
+   "designation": "InterRegional",
+   "isDefault": false,
+   "listOrder": 3,
+   "status": true,
+   "type": "SERVICE"
+  },
+  {
+   "code": "R",
+   "designation": "Regional",
+   "isDefault": false,
+   "listOrder": 4,
+   "status": true,
+   "type": "SERVICE"
+  },
+  {
+   "code": "ESP",
+   "designation": "Especial",
+   "isDefault": false,
+   "listOrder": 5,
+   "status": true,
+   "type": "SERVICE"
+  },
+  {
+   "code": "U",
+   "designation": "Urbano",
+   "isDefault": false,
+   "listOrder": 5,
+   "status": true,
+   "type": "SERVICE"
+  },
+  {
+   "code": "IN",
+   "designation": "Internacionais",
+   "isDefault": false,
+   "listOrder": 6,
+   "status": true,
+   "type": "SERVICE"
+  },
+  {
+   "code": "1",
+   "designation": "1ª Classe / Conforto",
+   "isDefault": false,
+   "listOrder": 1,
+   "status": true,
+   "type": "TRAVEL_CLASS"
+  },
+  {
+   "code": "2",
+   "designation": "2ª Classe / Turística",
+   "isDefault": true,
+   "listOrder": 2,
+   "status": true,
+   "type": "TRAVEL_CLASS"
+  },
+  {
+   "code": "CC",
+   "designation": "Cartão de Cidadão",
+   "isDefault": true,
+   "listOrder": 1,
+   "status": true,
+   "type": "ID_TYPE"
+  },
+  {
+   "code": "PASS",
+   "designation": "Passaporte",
+   "isDefault": false,
+   "listOrder": 2,
+   "status": true,
+   "type": "ID_TYPE"
+  },
+  {
+   "code": "BI",
+   "designation": "Bilhete de Identidade",
+   "isDefault": false,
+   "listOrder": 3,
+   "status": true,
+   "type": "ID_TYPE"
+  },
+  {
+   "code": "CCOND",
+   "designation": "Carta de Condução",
+   "isDefault": false,
+   "listOrder": 4,
+   "status": true,
+   "type": "ID_TYPE"
+  },
+  {
+   "code": "AR",
+   "designation": "Autorização de residência ",
+   "isDefault": false,
+   "listOrder": 5,
+   "status": true,
+   "type": "ID_TYPE"
+  },
+  {
+   "code": "MOB",
+   "designation": "Mobilidade Reduzida",
+   "isDefault": false,
+   "listOrder": 1,
+   "status": true,
+   "type": "SEAT_OPTION"
+  },
+  {
+   "code": "BIKE",
+   "designation": "Transporte de Bicicleta",
+   "isDefault": false,
+   "listOrder": 2,
+   "status": true,
+   "type": "SEAT_OPTION"
+  },
+  {
+   "code": "PT",
+   "designation": "Portugal [PT]",
+   "isDefault": true,
+   "listOrder": 1,
+   "status": true,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AF",
+   "designation": "Afeganistão [AF]",
+   "isDefault": false,
+   "listOrder": 2,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AL",
+   "designation": "Albânia [AL]",
+   "isDefault": false,
+   "listOrder": 3,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "DE",
+   "designation": "Alemanha [DE]",
+   "isDefault": false,
+   "listOrder": 4,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AD",
+   "designation": "Andorra [AD]",
+   "isDefault": false,
+   "listOrder": 5,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AO",
+   "designation": "Angola [AO]",
+   "isDefault": false,
+   "listOrder": 6,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AI",
+   "designation": "Anguila [AI]",
+   "isDefault": false,
+   "listOrder": 7,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AQ",
+   "designation": "Antártida [AQ]",
+   "isDefault": false,
+   "listOrder": 8,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AG",
+   "designation": "Antígua e Barbuda [AG]",
+   "isDefault": false,
+   "listOrder": 9,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AR",
+   "designation": "Argentina [AR]",
+   "isDefault": false,
+   "listOrder": 10,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "DZ",
+   "designation": "Argélia [DZ]",
+   "isDefault": false,
+   "listOrder": 11,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AM",
+   "designation": "Arménia [AM]",
+   "isDefault": false,
+   "listOrder": 12,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AW",
+   "designation": "Aruba [AW]",
+   "isDefault": false,
+   "listOrder": 13,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SA",
+   "designation": "Arábia Saudita [SA]",
+   "isDefault": false,
+   "listOrder": 14,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AU",
+   "designation": "Austrália [AU]",
+   "isDefault": false,
+   "listOrder": 15,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AZ",
+   "designation": "Azerbaijão [AZ]",
+   "isDefault": false,
+   "listOrder": 16,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BS",
+   "designation": "Baamas [BS]",
+   "isDefault": false,
+   "listOrder": 17,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BD",
+   "designation": "Bangladeche [BD]",
+   "isDefault": false,
+   "listOrder": 18,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BB",
+   "designation": "Barbados [BB]",
+   "isDefault": false,
+   "listOrder": 19,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BH",
+   "designation": "Barém [BH]",
+   "isDefault": false,
+   "listOrder": 20,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BZ",
+   "designation": "Belize [BZ]",
+   "isDefault": false,
+   "listOrder": 21,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BJ",
+   "designation": "Benim [BJ]",
+   "isDefault": false,
+   "listOrder": 22,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BM",
+   "designation": "Bermudas [BM]",
+   "isDefault": false,
+   "listOrder": 23,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BY",
+   "designation": "Bielorrússia [BY]",
+   "isDefault": false,
+   "listOrder": 24,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BO",
+   "designation": "Bolívia (Estado Plurinacional da) [BO]",
+   "isDefault": false,
+   "listOrder": 25,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BQ",
+   "designation": "Bonaire, Santo Eustáquio e Saba [BQ]",
+   "isDefault": false,
+   "listOrder": 26,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BW",
+   "designation": "Botsuana [BW]",
+   "isDefault": false,
+   "listOrder": 27,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BR",
+   "designation": "Brasil [BR]",
+   "isDefault": false,
+   "listOrder": 28,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BN",
+   "designation": "Brunei Darussalam [BN]",
+   "isDefault": false,
+   "listOrder": 29,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BG",
+   "designation": "Bulgária [BG]",
+   "isDefault": false,
+   "listOrder": 30,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BF",
+   "designation": "Burquina Faso [BF]",
+   "isDefault": false,
+   "listOrder": 31,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BI",
+   "designation": "Burundi [BI]",
+   "isDefault": false,
+   "listOrder": 32,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BT",
+   "designation": "Butão [BT]",
+   "isDefault": false,
+   "listOrder": 33,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BE",
+   "designation": "Bélgica [BE]",
+   "isDefault": false,
+   "listOrder": 34,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BA",
+   "designation": "Bósnia-Herzegovina [BA]",
+   "isDefault": false,
+   "listOrder": 35,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CV",
+   "designation": "Cabo Verde [CV]",
+   "isDefault": false,
+   "listOrder": 36,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CM",
+   "designation": "Camarões [CM]",
+   "isDefault": false,
+   "listOrder": 37,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KH",
+   "designation": "Camboja [KH]",
+   "isDefault": false,
+   "listOrder": 38,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CA",
+   "designation": "Canadá [CA]",
+   "isDefault": false,
+   "listOrder": 39,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "QA",
+   "designation": "Catar [QA]",
+   "isDefault": false,
+   "listOrder": 40,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KZ",
+   "designation": "Cazaquistão [KZ]",
+   "isDefault": false,
+   "listOrder": 41,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TD",
+   "designation": "Chade [TD]",
+   "isDefault": false,
+   "listOrder": 42,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CL",
+   "designation": "Chile [CL]",
+   "isDefault": false,
+   "listOrder": 43,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CN",
+   "designation": "China [CN]",
+   "isDefault": false,
+   "listOrder": 44,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CY",
+   "designation": "Chipre [CY]",
+   "isDefault": false,
+   "listOrder": 45,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CZ",
+   "designation": "Chéquia [CZ]",
+   "isDefault": false,
+   "listOrder": 46,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CO",
+   "designation": "Colômbia [CO]",
+   "isDefault": false,
+   "listOrder": 47,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KM",
+   "designation": "Comores [KM]",
+   "isDefault": false,
+   "listOrder": 48,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CD",
+   "designation": "Congo (República Democrática do) [CD]",
+   "isDefault": false,
+   "listOrder": 49,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CG",
+   "designation": "Congo [CG]",
+   "isDefault": false,
+   "listOrder": 50,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KR",
+   "designation": "Coreia (República da) [KR]",
+   "isDefault": false,
+   "listOrder": 51,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KP",
+   "designation": "Coreia (República Popular Democrática da) [KP]",
+   "isDefault": false,
+   "listOrder": 52,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CI",
+   "designation": "Costa do Marfim [CI]",
+   "isDefault": false,
+   "listOrder": 53,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CR",
+   "designation": "Costa Rica [CR]",
+   "isDefault": false,
+   "listOrder": 54,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "HR",
+   "designation": "Croácia [HR]",
+   "isDefault": false,
+   "listOrder": 55,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CU",
+   "designation": "Cuba [CU]",
+   "isDefault": false,
+   "listOrder": 56,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CW",
+   "designation": "Curaçau [CW]",
+   "isDefault": false,
+   "listOrder": 57,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "DK",
+   "designation": "Dinamarca [DK]",
+   "isDefault": false,
+   "listOrder": 58,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "DM",
+   "designation": "Domínica [DM]",
+   "isDefault": false,
+   "listOrder": 59,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "EG",
+   "designation": "Egito [EG]",
+   "isDefault": false,
+   "listOrder": 60,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SV",
+   "designation": "El Salvador [SV]",
+   "isDefault": false,
+   "listOrder": 61,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AE",
+   "designation": "Emirados Árabes Unidos [AE]",
+   "isDefault": false,
+   "listOrder": 62,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "EC",
+   "designation": "Equador [EC]",
+   "isDefault": false,
+   "listOrder": 63,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ER",
+   "designation": "Eritreia [ER]",
+   "isDefault": false,
+   "listOrder": 64,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SK",
+   "designation": "Eslováquia [SK]",
+   "isDefault": false,
+   "listOrder": 65,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SI",
+   "designation": "Eslovénia [SI]",
+   "isDefault": false,
+   "listOrder": 66,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ES",
+   "designation": "Espanha [ES]",
+   "isDefault": false,
+   "listOrder": 67,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SZ",
+   "designation": "Essuatíni [SZ]",
+   "isDefault": false,
+   "listOrder": 68,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "US",
+   "designation": "Estados Unidos da América [US]",
+   "isDefault": false,
+   "listOrder": 69,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "EE",
+   "designation": "Estónia [EE]",
+   "isDefault": false,
+   "listOrder": 70,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ET",
+   "designation": "Etiópia [ET]",
+   "isDefault": false,
+   "listOrder": 71,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "RU",
+   "designation": "Federação da Rússia [RU]",
+   "isDefault": false,
+   "listOrder": 72,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "FJ",
+   "designation": "Fiji [FJ]",
+   "isDefault": false,
+   "listOrder": 73,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PH",
+   "designation": "Filipinas [PH]",
+   "isDefault": false,
+   "listOrder": 74,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "FI",
+   "designation": "Finlândia [FI]",
+   "isDefault": false,
+   "listOrder": 75,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "FR",
+   "designation": "França [FR]",
+   "isDefault": false,
+   "listOrder": 76,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GA",
+   "designation": "Gabão [GA]",
+   "isDefault": false,
+   "listOrder": 77,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GH",
+   "designation": "Gana [GH]",
+   "isDefault": false,
+   "listOrder": 78,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GE",
+   "designation": "Geórgia [GE]",
+   "isDefault": false,
+   "listOrder": 79,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GI",
+   "designation": "Gibraltar [GI]",
+   "isDefault": false,
+   "listOrder": 80,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GD",
+   "designation": "Granada [GD]",
+   "isDefault": false,
+   "listOrder": 81,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GL",
+   "designation": "Gronelândia [GL]",
+   "isDefault": false,
+   "listOrder": 82,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GR",
+   "designation": "Grécia [GR]",
+   "isDefault": false,
+   "listOrder": 83,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GP",
+   "designation": "Guadalupe [GP]",
+   "isDefault": false,
+   "listOrder": 84,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GU",
+   "designation": "Guame [GU]",
+   "isDefault": false,
+   "listOrder": 85,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GT",
+   "designation": "Guatemala [GT]",
+   "isDefault": false,
+   "listOrder": 86,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GG",
+   "designation": "Guernesey [GG]",
+   "isDefault": false,
+   "listOrder": 87,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GY",
+   "designation": "Guiana [GY]",
+   "isDefault": false,
+   "listOrder": 88,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GF",
+   "designation": "Guiana Francesa [GF]",
+   "isDefault": false,
+   "listOrder": 89,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GN",
+   "designation": "Guiné [GN]",
+   "isDefault": false,
+   "listOrder": 90,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GQ",
+   "designation": "Guiné Equatorial [GQ]",
+   "isDefault": false,
+   "listOrder": 91,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GW",
+   "designation": "Guiné-Bissau [GW]",
+   "isDefault": false,
+   "listOrder": 92,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GM",
+   "designation": "Gâmbia [GM]",
+   "isDefault": false,
+   "listOrder": 93,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "HT",
+   "designation": "Haiti [HT]",
+   "isDefault": false,
+   "listOrder": 94,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "HN",
+   "designation": "Honduras [HN]",
+   "isDefault": false,
+   "listOrder": 95,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "HK",
+   "designation": "Hong Kong [HK]",
+   "isDefault": false,
+   "listOrder": 96,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "HU",
+   "designation": "Hungria [HU]",
+   "isDefault": false,
+   "listOrder": 97,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BV",
+   "designation": "Ilha Bouvet [BV]",
+   "isDefault": false,
+   "listOrder": 98,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "IM",
+   "designation": "Ilha de Man [IM]",
+   "isDefault": false,
+   "listOrder": 99,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CX",
+   "designation": "Ilha do Natal [CX]",
+   "isDefault": false,
+   "listOrder": 100,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "HM",
+   "designation": "Ilha Heard e Ilhas McDonald [HM]",
+   "isDefault": false,
+   "listOrder": 101,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NF",
+   "designation": "Ilha Norfolk [NF]",
+   "isDefault": false,
+   "listOrder": 102,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AX",
+   "designation": "Ilhas Alanda [AX]",
+   "isDefault": false,
+   "listOrder": 103,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KY",
+   "designation": "Ilhas Caimão [KY]",
+   "isDefault": false,
+   "listOrder": 104,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CK",
+   "designation": "Ilhas Cook [CK]",
+   "isDefault": false,
+   "listOrder": 105,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CC",
+   "designation": "Ilhas dos Cocos (Keeling) [CC]",
+   "isDefault": false,
+   "listOrder": 106,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "FK",
+   "designation": "Ilhas Falkland [FK]",
+   "isDefault": false,
+   "listOrder": 107,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "FO",
+   "designation": "Ilhas Faroé [FO]",
+   "isDefault": false,
+   "listOrder": 108,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GS",
+   "designation": "Ilhas Geórgia do Sul e Sandwich do Sul [GS]",
+   "isDefault": false,
+   "listOrder": 109,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MP",
+   "designation": "Ilhas Marianas do Norte [MP]",
+   "isDefault": false,
+   "listOrder": 110,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MH",
+   "designation": "Ilhas Marshall [MH]",
+   "isDefault": false,
+   "listOrder": 111,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "UM",
+   "designation": "Ilhas Menores Afastadas dos Estados Unidos [UM]",
+   "isDefault": false,
+   "listOrder": 112,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SB",
+   "designation": "Ilhas Salomão [SB]",
+   "isDefault": false,
+   "listOrder": 113,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TC",
+   "designation": "Ilhas Turcas e Caicos [TC]",
+   "isDefault": false,
+   "listOrder": 114,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "VG",
+   "designation": "Ilhas Virgens (Britânicas) [VG]",
+   "isDefault": false,
+   "listOrder": 115,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "VI",
+   "designation": "Ilhas Virgens (Estados Unidos) [VI]",
+   "isDefault": false,
+   "listOrder": 116,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ID",
+   "designation": "Indonésia [ID]",
+   "isDefault": false,
+   "listOrder": 117,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "IQ",
+   "designation": "Iraque [IQ]",
+   "isDefault": false,
+   "listOrder": 118,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "IE",
+   "designation": "Irlanda [IE]",
+   "isDefault": false,
+   "listOrder": 119,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "IR",
+   "designation": "Irão (República Islâmica do) [IR]",
+   "isDefault": false,
+   "listOrder": 120,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "IS",
+   "designation": "Islândia [IS]",
+   "isDefault": false,
+   "listOrder": 121,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "IL",
+   "designation": "Israel [IL]",
+   "isDefault": false,
+   "listOrder": 122,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "IT",
+   "designation": "Itália [IT]",
+   "isDefault": false,
+   "listOrder": 123,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "YE",
+   "designation": "Iémen [YE]",
+   "isDefault": false,
+   "listOrder": 124,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "JM",
+   "designation": "Jamaica [JM]",
+   "isDefault": false,
+   "listOrder": 125,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "JP",
+   "designation": "Japão [JP]",
+   "isDefault": false,
+   "listOrder": 126,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "JE",
+   "designation": "Jersey [JE]",
+   "isDefault": false,
+   "listOrder": 127,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "DJ",
+   "designation": "Jibuti [DJ]",
+   "isDefault": false,
+   "listOrder": 128,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "JO",
+   "designation": "Jordânia [JO]",
+   "isDefault": false,
+   "listOrder": 129,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "XK",
+   "designation": "Kosovo [XK]",
+   "isDefault": false,
+   "listOrder": 130,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KW",
+   "designation": "Koweit [KW]",
+   "isDefault": false,
+   "listOrder": 131,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LS",
+   "designation": "Lesoto [LS]",
+   "isDefault": false,
+   "listOrder": 132,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LV",
+   "designation": "Letónia [LV]",
+   "isDefault": false,
+   "listOrder": 133,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LR",
+   "designation": "Libéria [LR]",
+   "isDefault": false,
+   "listOrder": 134,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LI",
+   "designation": "Listenstaine [LI]",
+   "isDefault": false,
+   "listOrder": 135,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LT",
+   "designation": "Lituânia [LT]",
+   "isDefault": false,
+   "listOrder": 136,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LU",
+   "designation": "Luxemburgo [LU]",
+   "isDefault": false,
+   "listOrder": 137,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LB",
+   "designation": "Líbano [LB]",
+   "isDefault": false,
+   "listOrder": 138,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LY",
+   "designation": "Líbia [LY]",
+   "isDefault": false,
+   "listOrder": 139,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MO",
+   "designation": "Macau [MO]",
+   "isDefault": false,
+   "listOrder": 140,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MK",
+   "designation": "Macedónia do Norte [MK]",
+   "isDefault": false,
+   "listOrder": 141,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MG",
+   "designation": "Madagáscar [MG]",
+   "isDefault": false,
+   "listOrder": 142,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "YT",
+   "designation": "Maiote [YT]",
+   "isDefault": false,
+   "listOrder": 143,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MV",
+   "designation": "Maldivas [MV]",
+   "isDefault": false,
+   "listOrder": 144,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ML",
+   "designation": "Mali [ML]",
+   "isDefault": false,
+   "listOrder": 145,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MT",
+   "designation": "Malta [MT]",
+   "isDefault": false,
+   "listOrder": 146,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MY",
+   "designation": "Malásia [MY]",
+   "isDefault": false,
+   "listOrder": 147,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MW",
+   "designation": "Maláui [MW]",
+   "isDefault": false,
+   "listOrder": 148,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MA",
+   "designation": "Marrocos [MA]",
+   "isDefault": false,
+   "listOrder": 149,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MQ",
+   "designation": "Martinica [MQ]",
+   "isDefault": false,
+   "listOrder": 150,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MR",
+   "designation": "Mauritânia [MR]",
+   "isDefault": false,
+   "listOrder": 151,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MU",
+   "designation": "Maurícia [MU]",
+   "isDefault": false,
+   "listOrder": 152,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MM",
+   "designation": "Mianmar [MM]",
+   "isDefault": false,
+   "listOrder": 153,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "FM",
+   "designation": "Micronésia (Estados Federados da) [FM]",
+   "isDefault": false,
+   "listOrder": 154,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MD",
+   "designation": "Moldávia (República da) [MD]",
+   "isDefault": false,
+   "listOrder": 155,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MN",
+   "designation": "Mongólia [MN]",
+   "isDefault": false,
+   "listOrder": 156,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MS",
+   "designation": "Monserrate [MS]",
+   "isDefault": false,
+   "listOrder": 157,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ME",
+   "designation": "Montenegro [ME]",
+   "isDefault": false,
+   "listOrder": 158,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MZ",
+   "designation": "Moçambique [MZ]",
+   "isDefault": false,
+   "listOrder": 159,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MX",
+   "designation": "México [MX]",
+   "isDefault": false,
+   "listOrder": 160,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MC",
+   "designation": "Mónaco [MC]",
+   "isDefault": false,
+   "listOrder": 161,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NA",
+   "designation": "Namíbia [NA]",
+   "isDefault": false,
+   "listOrder": 162,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NR",
+   "designation": "Nauru [NR]",
+   "isDefault": false,
+   "listOrder": 163,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NP",
+   "designation": "Nepal [NP]",
+   "isDefault": false,
+   "listOrder": 164,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NI",
+   "designation": "Nicarágua [NI]",
+   "isDefault": false,
+   "listOrder": 165,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NG",
+   "designation": "Nigéria [NG]",
+   "isDefault": false,
+   "listOrder": 166,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NU",
+   "designation": "Niuê [NU]",
+   "isDefault": false,
+   "listOrder": 167,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NO",
+   "designation": "Noruega [NO]",
+   "isDefault": false,
+   "listOrder": 168,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NC",
+   "designation": "Nova Caledónia [NC]",
+   "isDefault": false,
+   "listOrder": 169,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NZ",
+   "designation": "Nova Zelândia [NZ]",
+   "isDefault": false,
+   "listOrder": 170,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NE",
+   "designation": "Níger [NE]",
+   "isDefault": false,
+   "listOrder": 171,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "OM",
+   "designation": "Omã [OM]",
+   "isDefault": false,
+   "listOrder": 172,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PW",
+   "designation": "Palau [PW]",
+   "isDefault": false,
+   "listOrder": 173,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PA",
+   "designation": "Panamá [PA]",
+   "isDefault": false,
+   "listOrder": 174,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PG",
+   "designation": "Papua-Nova Guiné [PG]",
+   "isDefault": false,
+   "listOrder": 175,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PK",
+   "designation": "Paquistão [PK]",
+   "isDefault": false,
+   "listOrder": 176,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PY",
+   "designation": "Paraguai [PY]",
+   "isDefault": false,
+   "listOrder": 177,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "NL",
+   "designation": "Países Baixos [NL]",
+   "isDefault": false,
+   "listOrder": 178,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PE",
+   "designation": "Peru [PE]",
+   "isDefault": false,
+   "listOrder": 179,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PN",
+   "designation": "Pitcairn [PN]",
+   "isDefault": false,
+   "listOrder": 180,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PF",
+   "designation": "Polinésia Francesa [PF]",
+   "isDefault": false,
+   "listOrder": 181,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PL",
+   "designation": "Polónia [PL]",
+   "isDefault": false,
+   "listOrder": 182,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PR",
+   "designation": "Porto Rico [PR]",
+   "isDefault": false,
+   "listOrder": 183,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KG",
+   "designation": "Quirguistão [KG]",
+   "isDefault": false,
+   "listOrder": 184,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KI",
+   "designation": "Quiribáti [KI]",
+   "isDefault": false,
+   "listOrder": 185,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KE",
+   "designation": "Quénia [KE]",
+   "isDefault": false,
+   "listOrder": 186,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "GB",
+   "designation": "Reino Unido da Grã-Bretanha e Irlanda do Norte [GB]",
+   "isDefault": false,
+   "listOrder": 187,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CF",
+   "designation": "República Centro-Africana [CF]",
+   "isDefault": false,
+   "listOrder": 188,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "DO",
+   "designation": "República Dominicana [DO]",
+   "isDefault": false,
+   "listOrder": 189,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LA",
+   "designation": "República Popular Democrática do Laos [LA]",
+   "isDefault": false,
+   "listOrder": 190,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SY",
+   "designation": "República Árabe Síria [SY]",
+   "isDefault": false,
+   "listOrder": 191,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "RE",
+   "designation": "Reunião [RE]",
+   "isDefault": false,
+   "listOrder": 192,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "RO",
+   "designation": "Roménia [RO]",
+   "isDefault": false,
+   "listOrder": 193,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "RW",
+   "designation": "Ruanda [RW]",
+   "isDefault": false,
+   "listOrder": 194,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "WS",
+   "designation": "Samoa [WS]",
+   "isDefault": false,
+   "listOrder": 195,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AS",
+   "designation": "Samoa Americana [AS]",
+   "isDefault": false,
+   "listOrder": 196,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SH",
+   "designation": "Santa Helena, Ascensão e Tristão da Cunha [SH]",
+   "isDefault": false,
+   "listOrder": 197,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LC",
+   "designation": "Santa Lúcia [LC]",
+   "isDefault": false,
+   "listOrder": 198,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "VA",
+   "designation": "Santa Sé [VA]",
+   "isDefault": false,
+   "listOrder": 199,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "EH",
+   "designation": "Sara Ocidental [EH]",
+   "isDefault": false,
+   "listOrder": 200,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SC",
+   "designation": "Seicheles [SC]",
+   "isDefault": false,
+   "listOrder": 201,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SN",
+   "designation": "Senegal [SN]",
+   "isDefault": false,
+   "listOrder": 202,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SL",
+   "designation": "Serra Leoa [SL]",
+   "isDefault": false,
+   "listOrder": 203,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SG",
+   "designation": "Singapura [SG]",
+   "isDefault": false,
+   "listOrder": 204,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SO",
+   "designation": "Somália [SO]",
+   "isDefault": false,
+   "listOrder": 205,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "LK",
+   "designation": "Sri Lanca [LK]",
+   "isDefault": false,
+   "listOrder": 206,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SD",
+   "designation": "Sudão [SD]",
+   "isDefault": false,
+   "listOrder": 207,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SS",
+   "designation": "Sudão do Sul [SS]",
+   "isDefault": false,
+   "listOrder": 208,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SR",
+   "designation": "Suriname [SR]",
+   "isDefault": false,
+   "listOrder": 209,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SE",
+   "designation": "Suécia [SE]",
+   "isDefault": false,
+   "listOrder": 210,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "CH",
+   "designation": "Suíça [CH]",
+   "isDefault": false,
+   "listOrder": 211,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SJ",
+   "designation": "Svalbard e Jan Mayen [SJ]",
+   "isDefault": false,
+   "listOrder": 212,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "BL",
+   "designation": "São Bartolomeu [BL]",
+   "isDefault": false,
+   "listOrder": 213,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "KN",
+   "designation": "São Cristóvão e Neves [KN]",
+   "isDefault": false,
+   "listOrder": 214,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SM",
+   "designation": "São Marinho [SM]",
+   "isDefault": false,
+   "listOrder": 215,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "MF",
+   "designation": "São Martinho (parte francesa) [MF]",
+   "isDefault": false,
+   "listOrder": 216,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "SX",
+   "designation": "São Martinho (parte holandesa) [SX]",
+   "isDefault": false,
+   "listOrder": 217,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PM",
+   "designation": "São Pedro e Miquelão [PM]",
+   "isDefault": false,
+   "listOrder": 218,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ST",
+   "designation": "São Tomé e Príncipe [ST]",
+   "isDefault": false,
+   "listOrder": 219,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "VC",
+   "designation": "São Vicente e Granadinas [VC]",
+   "isDefault": false,
+   "listOrder": 220,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "RS",
+   "designation": "Sérvia [RS]",
+   "isDefault": false,
+   "listOrder": 221,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TH",
+   "designation": "Tailândia [TH]",
+   "isDefault": false,
+   "listOrder": 222,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TW",
+   "designation": "Taiwan (Província da China) [TW]",
+   "isDefault": false,
+   "listOrder": 223,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TJ",
+   "designation": "Tajiquistão [TJ]",
+   "isDefault": false,
+   "listOrder": 224,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TZ",
+   "designation": "Tanzânia, República Unida da [TZ]",
+   "isDefault": false,
+   "listOrder": 225,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "IO",
+   "designation": "Território Britânico do Oceano Índico [IO]",
+   "isDefault": false,
+   "listOrder": 226,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "PS",
+   "designation": "Território Palestiniano Ocupado [PS]",
+   "isDefault": false,
+   "listOrder": 227,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TF",
+   "designation": "Territórios Franceses do Sul [TF]",
+   "isDefault": false,
+   "listOrder": 228,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TL",
+   "designation": "Timor-Leste [TL]",
+   "isDefault": false,
+   "listOrder": 229,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TG",
+   "designation": "Togo [TG]",
+   "isDefault": false,
+   "listOrder": 230,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TO",
+   "designation": "Tonga [TO]",
+   "isDefault": false,
+   "listOrder": 231,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TK",
+   "designation": "Toquelau [TK]",
+   "isDefault": false,
+   "listOrder": 232,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TT",
+   "designation": "Trindade e Tobago [TT]",
+   "isDefault": false,
+   "listOrder": 233,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TN",
+   "designation": "Tunísia [TN]",
+   "isDefault": false,
+   "listOrder": 234,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TM",
+   "designation": "Turquemenistão [TM]",
+   "isDefault": false,
+   "listOrder": 235,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TR",
+   "designation": "Turquia [TR]",
+   "isDefault": false,
+   "listOrder": 236,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "TV",
+   "designation": "Tuvalu [TV]",
+   "isDefault": false,
+   "listOrder": 237,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "UA",
+   "designation": "Ucrânia [UA]",
+   "isDefault": false,
+   "listOrder": 238,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "UG",
+   "designation": "Uganda [UG]",
+   "isDefault": false,
+   "listOrder": 239,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "UY",
+   "designation": "Uruguai [UY]",
+   "isDefault": false,
+   "listOrder": 240,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "UZ",
+   "designation": "Usbequistão [UZ]",
+   "isDefault": false,
+   "listOrder": 241,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "VU",
+   "designation": "Vanuatu [VU]",
+   "isDefault": false,
+   "listOrder": 242,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "VE",
+   "designation": "Venezuela (República Bolivariana da) [VE]",
+   "isDefault": false,
+   "listOrder": 243,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "VN",
+   "designation": "Vietname [VN]",
+   "isDefault": false,
+   "listOrder": 244,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "WF",
+   "designation": "Wallis e Futuna [WF]",
+   "isDefault": false,
+   "listOrder": 245,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ZW",
+   "designation": "Zimbabué [ZW]",
+   "isDefault": false,
+   "listOrder": 246,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ZM",
+   "designation": "Zâmbia [ZM]",
+   "isDefault": false,
+   "listOrder": 247,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "ZA",
+   "designation": "África do Sul [ZA]",
+   "isDefault": false,
+   "listOrder": 248,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "AT",
+   "designation": "Áustria [AT]",
+   "isDefault": false,
+   "listOrder": 249,
+   "type": "FISCAL_COUNTRY"
+  },
+  {
+   "code": "IN",
+   "designation": "Índia [IN]",
+   "isDefault": false,
+   "listOrder": 250,
+   "type": "FISCAL_COUNTRY"
+  }
+ ]
+}

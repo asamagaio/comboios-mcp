@@ -1,0 +1,216 @@
+{
+ "trainNumber": 521,
+ "serviceCode": {
+  "code": "IC",
+  "designation": "Intercidades"
+ },
+ "lastStationCode": null,
+ "delay": null,
+ "occupancy": null,
+ "latitude": null,
+ "longitude": null,
+ "status": null,
+ "hasDisruptions": false,
+ "duration": "03h13",
+ "bike": null,
+ "mobility": null,
+ "ecology": null,
+ "messages": [],
+ "trainStops": [
+  {
+   "station": {
+    "code": "94-30007",
+    "designation": "Lisboa Santa Apolonia"
+   },
+   "arrival": null,
+   "departure": "06:30",
+   "platform": null,
+   "latitude": "38.71583938598633",
+   "longitude": "-9.120747566223145",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-31039",
+    "designation": "Lisboa Oriente"
+   },
+   "arrival": "06:38",
+   "departure": "06:39",
+   "platform": null,
+   "latitude": "38.767757415771484",
+   "longitude": "-9.09909439086914",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-31278",
+    "designation": "Vila Franca de Xira"
+   },
+   "arrival": "06:51",
+   "departure": "06:52",
+   "platform": null,
+   "latitude": "38.955135345458984",
+   "longitude": "-8.986308097839355",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-32185",
+    "designation": "Santarem"
+   },
+   "arrival": "07:13",
+   "departure": "07:14",
+   "platform": null,
+   "latitude": "39.24209976196289",
+   "longitude": "-8.675236701965332",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-34009",
+    "designation": "Entroncamento"
+   },
+   "arrival": "07:32",
+   "departure": "07:33",
+   "platform": null,
+   "latitude": "39.461708068847656",
+   "longitude": "-8.473884582519531",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-34645",
+    "designation": "Pombal"
+   },
+   "arrival": "08:04",
+   "departure": "08:05",
+   "platform": null,
+   "latitude": "39.91773986816406",
+   "longitude": "-8.630559921264648",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-36004",
+    "designation": "Coimbra-B"
+   },
+   "arrival": "08:31",
+   "departure": "08:33",
+   "platform": null,
+   "latitude": "40.22471618652344",
+   "longitude": "-8.44050121307373",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-37051",
+    "designation": "Mealhada"
+   },
+   "arrival": "08:46",
+   "departure": "08:47",
+   "platform": null,
+   "latitude": "40.375083923339844",
+   "longitude": "-8.453838348388672",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-38000",
+    "designation": "Aveiro"
+   },
+   "arrival": "09:02",
+   "departure": "09:04",
+   "platform": null,
+   "latitude": "40.64342498779297",
+   "longitude": "-8.640761375427246",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-38158",
+    "designation": "Estarreja"
+   },
+   "arrival": "09:11",
+   "departure": "09:12",
+   "platform": null,
+   "latitude": "40.75112533569336",
+   "longitude": "-8.57544994354248",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-39008",
+    "designation": "Espinho"
+   },
+   "arrival": "09:27",
+   "departure": "09:28",
+   "platform": null,
+   "latitude": "41.00651168823242",
+   "longitude": "-8.644346237182617",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-39164",
+    "designation": "Vila Nova de Gaia - Devesas"
+   },
+   "arrival": "09:37",
+   "departure": "09:38",
+   "platform": null,
+   "latitude": "41.12968063354492",
+   "longitude": "-8.62044906616211",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  },
+  {
+   "station": {
+    "code": "94-2006",
+    "designation": "Porto Campanha"
+   },
+   "arrival": "09:43",
+   "departure": null,
+   "platform": null,
+   "latitude": "41.148719787597656",
+   "longitude": "-8.584835052490234",
+   "delay": null,
+   "supression": null,
+   "ETA": null,
+   "ETD": null
+  }
+ ]
+}

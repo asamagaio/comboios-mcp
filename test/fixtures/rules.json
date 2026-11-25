@@ -1,0 +1,42 @@
+[
+ {
+  "ruleKey": "wks_username",
+  "value": "SivNetTicket",
+  "remark": "Username da workstation da BSC",
+  "status": true,
+  "updtDate": null,
+  "updtUser": null
+ },
+ {
+  "ruleKey": "min_tickets_qty",
+  "value": "1",
+  "remark": "número minimo de passageiros",
+  "status": true,
+  "updtDate": null,
+  "updtUser": null
+ },
+ {
+  "ruleKey": "calendar_limit",
+  "value": "60",
+  "remark": "dias a mostrar no calendario",
+  "status": true,
+  "updtDate": null,
+  "updtUser": null
+ },
+ {
+  "ruleKey": "max_tickets_qty",
+  "value": "9",
+  "remark": "número máximo de passageiros",
+  "status": true,
+  "updtDate": null,
+  "updtUser": null
+ },
+ {
+  "ruleKey": "dep_after_arr_limit",
+  "value": "15",
+  "remark": "espera mínima para a partida de volta após chegada da ida (minutos)",
+  "status": true,
+  "updtDate": null,
+  "updtUser": null
+ }
+]

@@ -1,0 +1,21 @@
+{
+  "_comment": "Normalised alias -> CP station code. Keys are matched after lowercasing and stripping accents, hyphens and dots.",
+  "lisboa sa": "94-30007",
+  "lisboa santa apolonia": "94-30007",
+  "santa apolonia": "94-30007",
+  "apolonia": "94-30007",
+  "oriente": "94-31039",
+  "gare do oriente": "94-31039",
+  "rossio": "94-59006",
+  "porto": "94-2006",
+  "campanha": "94-2006",
+  "porto campanha": "94-2006",
+  "porto sao bento": "94-1008",
+  "sao bento": "94-1008",
+  "coimbra": "94-36004",
+  "coimbra b": "94-36004",
+  "gaia": "94-39164",
+  "vila nova de gaia": "94-39164",
+  "areeiro": "94-66035",
+  "roma areeiro": "94-66035"
+}

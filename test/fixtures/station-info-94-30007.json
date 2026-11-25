@@ -1,0 +1,31 @@
+{
+ "code": "94-30007",
+ "designation": "Lisboa Santa Apolónia",
+ "latitude": 38.71583938598633,
+ "longitude": -9.120747566223145,
+ "trainLine": "Linha do Norte",
+ "mobilityAccess": "Sim",
+ "address": "Largo dos Caminhos de Ferro - Estação de Santa Apolónia, Lisboa",
+ "services": [
+  "ATM",
+  "TICKET_OFFICE",
+  "LUGGAGE_LOCKER",
+  "METRO",
+  "PARKING",
+  "INFO_OFFICE",
+  "LOST_AND_FOUND",
+  "WAITTING_ROOM",
+  "BUS",
+  "MAIL_BOX",
+  "WC",
+  "DISABILITY_WC",
+  "TICKET_MACHINE",
+  "INFO_SCREEN",
+  "AUDIO_INFO",
+  "INTERNET",
+  "RENT_A_CAR",
+  "TAXI",
+  "BICYCLE_PARKING",
+  "SHOPPING"
+ ]
+}

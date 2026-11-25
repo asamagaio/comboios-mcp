@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "payment-lab",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "lab/checkout/server.mjs"
+      ],
+      "port": 8790
+    },
+    {
+      "name": "purchase-page-mock",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "lab/mock/server.mjs"
+      ],
+      "port": 8791
+    }
+  ]
+}

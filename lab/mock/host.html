@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><title>MCP Apps test host</title>
+<style>body{font:14px system-ui;margin:16px;max-width:760px} iframe{width:100%;border:1px dashed #aaa;border-radius:8px;height:200px} #log{font:12px ui-monospace,monospace;white-space:pre-wrap;background:#f4f4f4;padding:8px;margin-top:8px}</style></head>
+<body><h3>Test host (minimal MCP Apps protocol)</h3>
+<label><input type="checkbox" id="dark"> dark theme</label>
+<iframe id="view" sandbox="allow-scripts allow-popups"></iframe><div id="log"></div>
+<script>
+const log = (m) => { document.getElementById("log").textContent += m + "\n"; };
+const frame = document.getElementById("view");
+const send = (msg) => frame.contentWindow.postMessage({ jsonrpc: "2.0", ...msg }, "*");
+const theme = () => (document.getElementById("dark").checked ? "dark" : "light");
+window.addEventListener("message", async (e) => {
+  if (e.source !== frame.contentWindow) return;
+  const m = e.data; if (!m || m.jsonrpc !== "2.0") return;
+  log("← " + (m.method || "result") + (m.params ? " " + JSON.stringify(m.params).slice(0, 160) : ""));
+  if (m.method === "ui/initialize") send({ id: m.id, result: { protocolVersion: m.params.protocolVersion, hostInfo: { name: "test-host", version: "0" }, hostCapabilities: { openLinks: {} }, hostContext: { theme: theme() } } });
+  else if (m.method === "ui/notifications/initialized") {
+    send({ method: "ui/notifications/tool-input", params: { arguments: { from: "Lisboa Santa Apolónia", to: "Porto Campanhã" } } });
+    const data = await (await fetch("/ui-sample")).json();
+    setTimeout(() => send({ method: "ui/notifications/tool-result", params: { content: [{ type: "text", text: JSON.stringify(data) }] } }), 400);
+  } else if (m.method === "ui/notifications/size-changed") frame.style.height = Math.ceil(m.params.height) + "px";
+  else if (m.method === "ui/open-link") { window.__opened = m.params.url; log("   open-link → " + m.params.url); send({ id: m.id, result: {} }); }
+  else if (m.id !== undefined) send({ id: m.id, result: {} });
+});
+document.getElementById("dark").onchange = () => send({ method: "ui/notifications/host-context-changed", params: { theme: theme() } });
+fetch("/ui-view").then((r) => r.text()).then((html) => { frame.srcdoc = html; });
+</script></body></html>

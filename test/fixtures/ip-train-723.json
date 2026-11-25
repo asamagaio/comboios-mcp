@@ -1,0 +1,126 @@
+{
+ "response": {
+  "DataHoraDestino": "22/11/2026 23:27:00",
+  "DataHoraOrigem": "22/11/2026 19:30:00",
+  "Destino": "BRAGA",
+  "DuracaoViagem": "03:57",
+  "NodesPassagemComboio": [
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "19:30",
+    "NodeID": 9430007,
+    "NomeEstacao": "LISBOA-APOL\u00d3NIA",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "19:38",
+    "NodeID": 9431039,
+    "NomeEstacao": "LISBOA-ORIENTE",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "19:51",
+    "NodeID": 9431278,
+    "NomeEstacao": "VILA FR. DE XIRA",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "20:13",
+    "NodeID": 9432185,
+    "NomeEstacao": "SANTAR\u00c9M",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "20:32",
+    "NodeID": 9434009,
+    "NomeEstacao": "ENTRONCAMENTO",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "21:04",
+    "NodeID": 9434645,
+    "NomeEstacao": "POMBAL",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "21:31",
+    "NodeID": 9436004,
+    "NomeEstacao": "COIMBRA-B",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "21:46",
+    "NodeID": 9437051,
+    "NomeEstacao": "MEALHADA",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "22:02",
+    "NodeID": 9438000,
+    "NomeEstacao": "AVEIRO",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "22:11",
+    "NodeID": 9438158,
+    "NomeEstacao": "ESTARREJA",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "22:27",
+    "NodeID": 9439008,
+    "NomeEstacao": "ESPINHO",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "22:37",
+    "NodeID": 9439164,
+    "NomeEstacao": "GAIA-DEVESAS",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": true,
+    "HoraProgramada": "22:43",
+    "NodeID": 9402006,
+    "NomeEstacao": "PORTO-CAMPANH\u00c3",
+    "Observacoes": ""
+   },
+   {
+    "ComboioPassou": false,
+    "HoraProgramada": "23:10",
+    "NodeID": 9405074,
+    "NomeEstacao": "FAMALIC\u00c3O",
+    "Observacoes": "Hora Prevista:23:27"
+   },
+   {
+    "ComboioPassou": false,
+    "HoraProgramada": "23:15",
+    "NodeID": 9406007,
+    "NomeEstacao": "NINE",
+    "Observacoes": "Hora Prevista:23:33"
+   },
+   {
+    "ComboioPassou": false,
+    "HoraProgramada": "23:27",
+    "NodeID": 9429157,
+    "NomeEstacao": "BRAGA",
+    "Observacoes": "Hora Prevista:23:44"
+   }
+  ],
+  "Operador": "CP LONGO CURSO",
+  "Origem": "LISBOA-APOL\u00d3NIA",
+  "SituacaoComboio": "Circula com atraso de 17 min.",
+  "TipoServico": "IC"
+ }
+}

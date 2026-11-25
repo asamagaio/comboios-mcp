@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Comprar bilhete · Comboios MCP (não oficial)</title>
+<style>
+  :root { color-scheme: light; --g: #2b7837; }
+  body { font: 16px/1.5 system-ui, -apple-system, sans-serif; max-width: 640px; margin: 28px auto; padding: 0 18px; color: #1d1d1f; }
+  h1 { font-size: 22px; margin: 0 0 4px; } h2 { font-size: 17px; margin: 24px 0 8px; }
+  .note { border-left: 4px solid #c78a00; padding: 8px 12px; background: #fff8e6; font-size: 14px; }
+  .card { border: 1px solid #ddd; border-radius: 12px; padding: 14px 16px; margin: 12px 0; }
+  .trip { font-size: 18px; font-weight: 600; } .muted { color: #666; font-size: 14px; }
+  label { display: block; margin: 10px 0 3px; font-weight: 500; font-size: 15px; }
+  input, select { width: 100%; padding: 9px; border: 1px solid #bbb; border-radius: 8px; box-sizing: border-box; font: inherit; }
+  .row { display: flex; gap: 8px; } .row > * { flex: 1; }
+  .check { display: flex; gap: 8px; align-items: flex-start; font-size: 14px; margin-top: 14px; } .check input { width: auto; margin-top: 4px; }
+  button { padding: 11px 16px; border-radius: 10px; border: 1px solid var(--g); background: var(--g); color: #fff; font: inherit; font-weight: 600; cursor: pointer; margin-top: 14px; }
+  button.secondary { background: #fff; color: var(--g); } button:disabled { opacity: .5; cursor: default; }
+  .err { color: #b00020; margin-top: 10px; } .ok { color: var(--g); font-weight: 600; }
+  details { margin-top: 6px; } summary { cursor: pointer; font-size: 14px; color: #444; }
+  .hidden { display: none; } #flow { margin-top: 12px; }
+  .tabs { display: flex; gap: 6px; overflow-x: auto; margin-top: 10px; }
+  .tab { background: #fff; color: #333; border: 1px solid #ccc; border-radius: 8px; padding: 6px 10px; margin: 0; font-weight: 500; font-size: 13px; line-height: 1.2; }
+  .tab.on { border-color: var(--g); color: var(--g); } .tab:disabled { opacity: .4; }
+  .smap { overflow-x: auto; padding: 8px 0; } .srow { display: flex; gap: 3px; margin-bottom: 3px; }
+  .cell { width: 30px; height: 30px; flex: none; display: inline-block; }
+  .seat { margin: 0; padding: 0; border-radius: 6px 6px 3px 3px; font-size: 11px; font-weight: 600; border: 1px solid #bbb; background: #fff; color: #333; }
+  .seat.fb { border-radius: 3px 3px 6px 6px; }
+  .seat.free { background: #fff; } .seat.occupied, .seat.blocked { background: #ddd; color: #999; border-color: #ddd; }
+  .seat.mine { background: #cfe8d3; border-color: var(--g); } .seat.sel { background: var(--g); color: #fff; border-color: var(--g); }
+  .legend { font-size: 12px; color: #555; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; } .legend .cell { width: 14px; height: 14px; }
+</style>
+</head>
+<body>
+<h1>Comprar bilhete</h1>
+<p class="note"><strong>Serviço não oficial, não associado à CP – Comboios de Portugal.</strong> O bilhete é emitido
+e cobrado pela CP; o pagamento é feito no formulário seguro da Checkout.com usado pela CP. Os seus dados são enviados
+à CP apenas para emitir o bilhete e não ficam guardados neste serviço. Serviço fornecido tal como está, sem
+garantias: na medida permitida por lei, o operador não é responsável por falhas, informação errada ou compras que
+corram mal. Bilhetes, preços e reembolsos são da responsabilidade da CP.</p>
+
+<div id="loading" class="muted">A carregar…</div>
+<div id="error" class="err"></div>
+
+<section id="trip-section" class="hidden">
+  <div class="card">
+    <div class="trip" id="trip-title"></div>
+    <div class="muted" id="trip-when"></div>
+    <div class="muted" id="trip-legs"></div>
+    <div style="margin-top:8px"><strong id="trip-price"></strong></div>
+  </div>
+</section>
+
+<section id="form-section" class="hidden">
+  <h2>Dados</h2>
+  <div id="passengers"></div>
+  <label for="email">Email (o bilhete é enviado para aqui)</label>
+  <input id="email" type="email" autocomplete="email" required>
+  <label for="mobile">Telemóvel (opcional)</label>
+  <input id="mobile" type="tel" autocomplete="tel">
+  <label class="check"><input id="consent" type="checkbox">
+    <span>Compreendo que este serviço não é da CP, que os dados acima são enviados à CP para emitir o bilhete, que
+    o lugar fica reservado durante 15 minutos enquanto pago, e que o serviço é fornecido sem garantias e o seu
+    operador não é responsável por problemas com a compra (qualquer questão sobre o bilhete é tratada com a CP).</span></label>
+  <button id="start">Continuar</button>
+</section>
+
+<p id="summary" class="muted hidden">Referência <span id="ref"></span> · total <strong id="total"></strong> · reservado durante 15 minutos.</p>
+
+<section id="seat-section" class="hidden">
+  <h2>Lugar</h2>
+  <p class="muted">A CP já atribuiu um lugar. Pode escolher outro antes de pagar.</p>
+  <div id="trains"></div>
+  <button id="topay">Continuar para pagamento</button>
+  <button class="secondary" id="cancel-seat">Cancelar compra</button>
+</section>
+
+<section id="pay-section" class="hidden">
+  <h2>Pagamento</h2>
+  <p class="muted">Pague no formulário abaixo. O lugar fica reservado durante 15 minutos desde o início da compra.</p>
+  <div id="flow"></div>
+  <button class="secondary" id="cancel">Cancelar compra</button>
+</section>
+
+<section id="result-section" class="hidden">
+  <h2>Resultado</h2>
+  <div id="result"></div>
+  <div id="tickets"></div>
+</section>
+
+<script src="/comprar.js"></script>
+</body>
+</html>

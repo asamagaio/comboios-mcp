@@ -1,0 +1,53 @@
+{
+  "name": "comboios-mcp",
+  "version": "0.1.0",
+  "description": "Unofficial MCP server for Portuguese trains (Comboios de Portugal): stations, journeys and fares, live boards, train status, alerts, and an optional ticket purchase page.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-apps",
+    "portugal",
+    "trains",
+    "comboios",
+    "cp"
+  ],
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asamagaio/comboios-mcp.git"
+  },
+  "bin": {
+    "comboios-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && cp src/aliases.json dist/aliases.json && npm run -s build:ui",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:live": "CP_LIVE=1 vitest run test/live.test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "probe": "tsx scripts/probe.ts",
+    "record-fixtures": "tsx scripts/record-fixtures.ts",
+    "inspector": "npx @modelcontextprotocol/inspector node dist/index.js",
+    "build:ui": "esbuild ui/horarios.ts --bundle --minify --format=iife --target=es2020 --outfile=dist/ui/horarios.js --log-level=warning"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "^1.7.5",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "entities": "^9.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.1"
+  }
+}

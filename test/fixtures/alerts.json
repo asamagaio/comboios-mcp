@@ -1,0 +1,2052 @@
+{
+ "item": [
+  {
+   "availableLanguages": [
+    "en-US",
+    "pt-PT"
+   ],
+   "contentStructureId": 49545,
+   "customFields": [],
+   "dateCreated": "2026-11-17T19:24:23Z",
+   "dateModified": "2026-11-21T01:03:44Z",
+   "datePublished": "2026-11-17T19:24:00Z",
+   "externalReferenceCode": "26bdfc82-eb52-3197-97d4-18274638dee6",
+   "friendlyUrlPath": "greve-23a27-nov",
+   "id": 1001753,
+   "key": "1001751",
+   "keywords": [],
+   "neverExpire": true,
+   "numberOfComments": 0,
+   "priority": 188,
+   "relatedContents": [],
+   "renderedContents": [
+    {
+     "contentTemplateId": "aviso-(redirect-pwa)",
+     "contentTemplateName": "Aviso (redirect PWA)",
+     "markedAsDefault": true,
+     "renderedContentURL": "https://www.cp.pt/info/o/headless-delivery/v1.0/structured-contents/1001753/rendered-content-by-display-page/aviso-(redirect-pwa)"
+    }
+   ],
+   "siteId": 20117,
+   "structuredContentFolderId": 56054,
+   "subscribed": false,
+   "taxonomyCategoryBriefs": [
+    {
+     "taxonomyCategoryId": 50505,
+     "taxonomyCategoryName": "Minho",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "93d4014f-efc7-c3c2-ef20-b1a5a6ba00f7",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 50508,
+     "taxonomyCategoryName": "Douro Litoral",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "9d471628-9a1d-b494-deea-01f6328e2467",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 50511,
+     "taxonomyCategoryName": "Trás-os-montes",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "bf91db66-4d9e-48bb-705d-76eeb3644908",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 50540,
+     "taxonomyCategoryName": "Alfa Pendular",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "29a72221-c13c-6135-0730-b49d57272e0e",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57687,
+     "taxonomyCategoryName": "Intercidades",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "b7cd04e0-2aed-fc99-2307-dda047a21f8b",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57690,
+     "taxonomyCategoryName": "Internacional",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "2db4b977-65db-f05a-6b7c-6591ada08559",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57693,
+     "taxonomyCategoryName": "Regional",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "96e42ba7-02e4-aebe-06e9-2e2b9fa2253e",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57699,
+     "taxonomyCategoryName": "Urbanos de Coimbra",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "e25e7183-7a95-c8b1-addd-7b348a48ac46",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57702,
+     "taxonomyCategoryName": "Urbanos de Lisboa",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "a3db07c3-7a9b-2a4c-78c2-8251e3ee27e1",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57705,
+     "taxonomyCategoryName": "Urbanos do Porto",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "c1064d7c-8522-c6d8-9371-4774d1a185d4",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57712,
+     "taxonomyCategoryName": "Beira Alta",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "b19e7c0b-876a-3af6-59da-9e7f74c6cb0e",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57715,
+     "taxonomyCategoryName": "Beira Baixa",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "4a879c17-efca-15de-9271-1ca1165ebf0d",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57718,
+     "taxonomyCategoryName": "Beira Litoral",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "7c8d40f5-4a36-a17c-10fd-da88c413ef54",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57721,
+     "taxonomyCategoryName": "Ribatejo",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "f5a999d7-b2d4-2767-4681-dab61b51a102",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57724,
+     "taxonomyCategoryName": "Estremadura",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "62ab22e9-3641-efea-1085-c350c318f63f",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57727,
+     "taxonomyCategoryName": "Alto Alentejo",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "75d8f563-a296-bdd0-abc3-81959c60568a",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57730,
+     "taxonomyCategoryName": "Baixo Alentejo",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "dd047032-e29c-aaa6-facf-25ad3c8cd85d",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57733,
+     "taxonomyCategoryName": "Algarve",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "eb89fb05-34fd-c6c1-aa9d-603db59a2386",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57762,
+     "taxonomyCategoryName": "Linha da Azambuja",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "b37c904d-42d3-df48-8bc6-7dfdcb5487ce",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57765,
+     "taxonomyCategoryName": "Linha de Sintra",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "f0fb6480-0f02-6013-f96d-03a686660670",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57768,
+     "taxonomyCategoryName": "Linha de Cascais",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "b8009c09-cb37-c1c2-8e6d-be0bf7367732",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57771,
+     "taxonomyCategoryName": "Linha do Sado",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "ff866f09-c963-761a-7155-c9d1878d6cb0",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57774,
+     "taxonomyCategoryName": "Linha de Aveiro",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "5de28da6-0b8f-fa9c-2b93-c6d878fe9fc2",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57777,
+     "taxonomyCategoryName": "Linha de Braga",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "71d98928-4f94-91d6-2640-559f46f7a572",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57780,
+     "taxonomyCategoryName": "Linha de Guimarães",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "6b5d17ea-4901-8073-d6d4-5858bef5d5e6",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57783,
+     "taxonomyCategoryName": "Linha do Marco",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "39097aae-7293-6f29-4069-d4e32ef48ec0",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57786,
+     "taxonomyCategoryName": "Lisboa - Porto",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "73b6f06f-7c43-d008-4ea0-3bb35708d43a",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57789,
+     "taxonomyCategoryName": "Lisboa - Faro",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "db843e6b-5a7f-9a82-cdbe-e2442058f57b",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57792,
+     "taxonomyCategoryName": "Porto-Regua",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "c0b58ad5-b2f3-aad2-846b-35ce98602d8d",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57795,
+     "taxonomyCategoryName": "Lisboa - Guarda",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "9aef77c0-e6ea-7755-2f9a-364e59baffcc",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57798,
+     "taxonomyCategoryName": "Lisboa - Covilhã",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "73a48292-f6b2-7a73-e015-a71adb8431fa",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57801,
+     "taxonomyCategoryName": "Lisboa - Beja",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "3c394ccf-055f-11e0-30ea-160dc3506b8c",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57822,
+     "taxonomyCategoryName": "Porto - Faro",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "c9d6ef01-c7fc-87ea-8d7f-18331d9c48b1",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57828,
+     "taxonomyCategoryName": "Lisboa - Braga",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "d57b6959-179a-db6b-df1e-7d8d82040613",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57837,
+     "taxonomyCategoryName": "Lisboa - Guimarães",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "f853d87d-da84-5638-591b-8e6bc05d876c",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57840,
+     "taxonomyCategoryName": "Lisboa - Valença",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "9adf22a5-a34b-22a3-ae2a-78deef2658a0",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 855383,
+     "taxonomyCategoryName": "Linha de Leixões",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "8355896c-10b4-0d71-64b0-d27a08de870b",
+      "siteKey": "Guest"
+     }
+    }
+   ],
+   "title": {
+    "en-US": "Strike | CP - Comboios de Portugal",
+    "pt-PT": "Greve | CP - Comboios de Portugal"
+   },
+   "description": {
+    "en-US": "<p>Service disruption from 23 to 27 November 2026.</p>",
+    "pt-PT": "<p>Perturbações na circulação de 23 a 27 de novembro de 2026</p>"
+   },
+   "contentFields": {
+    "en-US": [
+     {
+      "contentFieldValue": {
+       "data": "Strike - 23 to 27 November 2026"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "Service disruption"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "true"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-23T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-27T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Due to strike action called by SMAQ – Train Drivers’ Union, from 23 to 27 November, major disruptions to rail services are expected, with several trains cancelled across all CP services.</p>\n\n<p><br>\nThe following minimum services have been estabilished for <strong>24 and 25 November:</strong></p>\n\n<p><br>\n-&nbsp;<a href=\"/info/documents/d/cp/servicos-minimos-lc-24e25nov\" target=\"_blank\">Alfa Pendular and Intercidades</a>;<br>\n-&nbsp;<a href=\"/info/documents/d/cp/servicos-minimos-reg-24e25nov\" target=\"_blank\">InterRegional and Regional</a>;<br>\n-&nbsp;<a href=\"/info/documents/d/cp/servicos-minimos-urb-coi-24e25nov\" target=\"_blank\">Coimbra Urban Trains</a>;<br>\n- <a href=\"/info/documents/d/cp/servicos-minimos-urb-lx-24e25nov\" target=\"_blank\">Lisboa Urban Trains</a>;<br>\n-&nbsp;<a href=\"/info/documents/d/cp/servicos-minimos-urb-pt-24e25nov\" target=\"_blank\">Porto Urban Trains</a>.</p>\n\n<p><br>\nPassengers who have purchased tickets to travel on Alfa Pendular, Intercidades, Internacional, InterRegional and Regional services, can get a full refun or a free exchange for another train of the same category and in the same class.</p>\n\n<p><br>\nTo get a refund or exchange automatically, we recommend:<br>\n- Online (for tickets purchased through digital channels),&nbsp;via the CP website in&nbsp;“<a href=\"https://www.cp.pt/en/pos-venda\">After-sales</a>” or the CP App under “MyCP”, up to 15 minutes before the train’s departure from the customer’s station of origin;<br>\n- At CP ticket offices, either before or after the date of travel, and up to 10 days after the end of the strike.</p>\n\n<p><br>\nYou can also request a refund via the online form “<a href=\"https://www.cp.pt/en/contactos/novo-pedido\">Refund for Delay or Cancellation</a>”, subject to longer response times.</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>For more information, please call the customer care line (National calls: 210 900 032 (Price of a call to the fixed network according to your tariff) or 808 109 110 (Price of a local call according to your tariff, with a maximum of €0.07 + VAT for the first minute and €0.0277 + VAT for each subsequent minute on weekdays from 9 a.m. to 9 p.m. or €0.0084 + VAT from 9 p.m. to 9 a.m., weekends and public holidays, as defined by Anacom) site CP (cp.pt) or CP Customer Assistance Offices and Ticket Offices.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ],
+    "pt-PT": [
+     {
+      "contentFieldValue": {
+       "data": "Greve - 23 a 27 de novembro de 2026"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "Perturbações na circulação - serviços mínimos"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "true"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-23T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-27T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Por motivo de greve convocada pelo SMAQ – Sindicato dos Maquinistas, de 23 a 27 de novembro, preveem-se fortes perturbações na circulação ferroviária, com supressão de diversos comboios em todos os serviços CP.</p>\n\n<p><br>\nPara os dias <strong>24 e 25 de novembro, foram definidos os seguintes serviços mínimos:</strong><br>\n&nbsp;</p>\n\n<p>-&nbsp;<a href=\"/info/documents/d/cp/servicos-minimos-lc-24e25nov\" target=\"_blank\">Alfa Pendular e Intercidades</a>;<br>\n-&nbsp;<a href=\"/info/documents/d/cp/servicos-minimos-reg-24e25nov\" target=\"_blank\">InterRegional e Regional</a>;<br>\n-&nbsp;<a href=\"/info/documents/d/cp/servicos-minimos-urb-coi-24e25nov\" target=\"_blank\">Comboios Urbanos de Coimbra</a>;<br>\n-&nbsp;<a href=\"/info/documents/d/cp/servicos-minimos-urb-lx-24e25nov\" target=\"_blank\">Comboios Urbanos de Lisboa</a>;<br>\n-&nbsp;<a href=\"/info/documents/d/cp/servicos-minimos-urb-pt-24e25nov\" target=\"_blank\">Comboios Urbanos do Porto</a>.<br>\n&nbsp;</p>\n\n<p>Aos clientes que já tenham bilhetes adquiridos para viajar em comboios dos serviços Alfa Pendular, Intercidades, Internacional, InterRegional e Regional, a CP permitirá o reembolso, no valor total do bilhete adquirido, ou a sua troca gratuita para outro comboio da mesma categoria e na mesma classe.</p>\n\n<p><br>\nPara obter o reembolso ou troca de forma automática, recomendamos:<br>\n- Online (para bilhetes adquiridos nos canais digitais), através do site CP na área \"<a href=\"https://www.cp.pt/pt/pos-venda\">Pós-Venda</a>\" ou App CP em “MyCP”, até 15 minutos antes da partida do comboio da estação de origem do cliente;<br>\n- Nas bilheteiras CP, antes ou após a data da viagem, e até 10 dias após o fim da greve.</p>\n\n<p>Pode também solicitar o reembolso através do <a href=\"https://www.cp.pt/pt/contactos/novo-pedido\">formulário online “Reembolso por Atraso ou Supressão”</a>, sujeito a tempos de resposta superiores.</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Para mais informações, por favor consulte: Linha de Atendimento (Chamadas nacionais: 210 900 032 (Preço de uma chamada para a rede fixa de acordo com o seu tarifário) ou 808 109 110 (Preço de uma chamada local de acordo com o seu tarifário, com máximo de 0,07 € + IVA no primeiro minuto e 0,0277 € + IVA por cada minuto seguinte nos dias úteis das 9h às 21h ou 0,0084 € + IVA das 21h às 9h, fins de semana e feriados, conforme definido pela Anacom), Gabinetes de Apoio ao Cliente ou Bilheteiras CP.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ]
+   }
+  },
+  {
+   "availableLanguages": [
+    "en-US",
+    "pt-PT"
+   ],
+   "contentStructureId": 49545,
+   "customFields": [],
+   "dateCreated": "2026-11-17T15:26:55Z",
+   "dateExpired": "2026-11-22T23:59:00Z",
+   "dateModified": "2026-11-17T16:33:31Z",
+   "datePublished": "2026-11-17T15:30:00Z",
+   "externalReferenceCode": "2ea901a5-039f-c0b0-26fa-bc399cff036f",
+   "friendlyUrlPath": "greve-itau-21-novembro",
+   "id": 1000891,
+   "key": "1000889",
+   "keywords": [],
+   "neverExpire": false,
+   "numberOfComments": 0,
+   "priority": 182,
+   "relatedContents": [],
+   "renderedContents": [
+    {
+     "contentTemplateId": "aviso-(redirect-pwa)",
+     "contentTemplateName": "Aviso (redirect PWA)",
+     "markedAsDefault": true,
+     "renderedContentURL": "https://www.cp.pt/info/o/headless-delivery/v1.0/structured-contents/1000891/rendered-content-by-display-page/aviso-(redirect-pwa)"
+    }
+   ],
+   "siteId": 20117,
+   "structuredContentFolderId": 56054,
+   "subscribed": false,
+   "taxonomyCategoryBriefs": [
+    {
+     "taxonomyCategoryId": 50540,
+     "taxonomyCategoryName": "Alfa Pendular",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "29a72221-c13c-6135-0730-b49d57272e0e",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57687,
+     "taxonomyCategoryName": "Intercidades",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "b7cd04e0-2aed-fc99-2307-dda047a21f8b",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57786,
+     "taxonomyCategoryName": "Lisboa - Porto",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "73b6f06f-7c43-d008-4ea0-3bb35708d43a",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57789,
+     "taxonomyCategoryName": "Lisboa - Faro",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "db843e6b-5a7f-9a82-cdbe-e2442058f57b",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57795,
+     "taxonomyCategoryName": "Lisboa - Guarda",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "9aef77c0-e6ea-7755-2f9a-364e59baffcc",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57798,
+     "taxonomyCategoryName": "Lisboa - Covilhã",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "73a48292-f6b2-7a73-e015-a71adb8431fa",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57822,
+     "taxonomyCategoryName": "Porto - Faro",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "c9d6ef01-c7fc-87ea-8d7f-18331d9c48b1",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57828,
+     "taxonomyCategoryName": "Lisboa - Braga",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "d57b6959-179a-db6b-df1e-7d8d82040613",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57837,
+     "taxonomyCategoryName": "Lisboa - Guimarães",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "f853d87d-da84-5638-591b-8e6bc05d876c",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57840,
+     "taxonomyCategoryName": "Lisboa - Valença",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "9adf22a5-a34b-22a3-ae2a-78deef2658a0",
+      "siteKey": "Guest"
+     }
+    }
+   ],
+   "title": {
+    "en-US": "Cafeteria and Bar Service Strike –  21 November | CP",
+    "pt-PT": "Greve Serviço de Cafetaria e Bar –  21 novembro | CP"
+   },
+   "description": {
+    "en-US": "<p>See the information regarding the strike by the on-board cafeteria and bar service on Alfa Pendular and Intercidades trains on 21 November.</p>",
+    "pt-PT": "<p>Consulte a informação sobre a greve do Serviço de Cafetaria e Bar a bordo dos comboios Alfa Pendular e Intercidades no dia 21 novembro.</p>"
+   },
+   "contentFields": {
+    "en-US": [
+     {
+      "contentFieldValue": {
+       "data": "Disruption to cafeteria and bar service on 21 November."
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "Alfa Pendular and Intercidades"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "false"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-21T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-21T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>The union representing workers who provide café and bar services on Alfa Pendular and Intercidades trains has called a <b>strike for 21 November</b>, which may cause disruption to these services, with a possible impact also on 20 and 22 November.</p>\n\n<p>&nbsp;</p>\n\n<p>We apologise for any inconvenience caused, which is entirely beyond CP’s control, and we thank you for your understanding during this period.</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>For more information, please call the customer care line (National calls: 210 900 032 (Price of a call to the fixed network according to your tariff) or 808 109 110 (Price of a local call according to your tariff, with a maximum of €0.07 + VAT for the first minute and €0.0277 + VAT for each subsequent minute on weekdays from 9 a.m. to 9 p.m. or €0.0084 + VAT from 9 p.m. to 9 a.m., weekends and public holidays, as defined by Anacom) site CP (cp.pt) or CP Customer Assistance Offices and Ticket Offices.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ],
+    "pt-PT": [
+     {
+      "contentFieldValue": {
+       "data": "Perturbação no serviço de cafetaria e bar - 21 novembro"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "Alfa Pendular e Intercidades"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "false"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-21T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-21T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Informamos que a&nbsp;<strong>FESAHT</strong>, representante dos trabalhadores do concessionário <strong>ITAU</strong> que presta serviços de cafetaria e bar nos comboios Alfa Pendular e Intercidades, convocou <strong>greve para o dia 21 de novembro</strong>, o que poderá causar perturbações na prestação dos referidos serviços, com possível impacto também nos dias 20 e 22 de novembro.</p>\n\n<p>&nbsp;</p>\n\n<p>Lamentamos eventuais transtornos, totalmente alheios à CP, e agradecemos a melhor compreensão durante este período.</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Para mais informações, por favor consulte: <strong>Linha de Atendimento</strong> (Chamadas nacionais: <strong>210 900 032</strong> (Preço de uma chamada para a rede fixa de acordo com o seu tarifário) ou 8<strong>08 109 110</strong> (Preço de uma chamada local de acordo com o seu tarifário, com máximo de 0,07€ + IVA no primeiro minuto e 0,0277€ + IVA por cada minuto seguinte nos dias úteis das 9h às 21h ou 0,0084€ + IVA das 21h às 9h, fins de semana e feriados, conforme definido pela Anacom), <strong>Gabinetes de Apoio ao Cliente</strong> ou <strong>Bilheteiras</strong>.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ]
+   }
+  },
+  {
+   "availableLanguages": [
+    "en-US",
+    "pt-PT"
+   ],
+   "contentStructureId": 49545,
+   "customFields": [],
+   "dateCreated": "2026-03-11T08:49:15Z",
+   "dateModified": "2026-11-11T12:45:03Z",
+   "datePublished": "2026-03-12T12:54:00Z",
+   "externalReferenceCode": "5339aa27-4336-374e-83a4-7c872f047233",
+   "friendlyUrlPath": "oeste-transbordo-16-marco",
+   "id": 767725,
+   "key": "767723",
+   "keywords": [],
+   "neverExpire": true,
+   "numberOfComments": 0,
+   "priority": 180,
+   "relatedContents": [],
+   "renderedContents": [
+    {
+     "contentTemplateId": "aviso-(redirect-pwa)",
+     "contentTemplateName": "Aviso (redirect PWA)",
+     "markedAsDefault": true,
+     "renderedContentURL": "https://www.cp.pt/info/o/headless-delivery/v1.0/structured-contents/767725/rendered-content-by-display-page/aviso-(redirect-pwa)"
+    }
+   ],
+   "siteId": 20117,
+   "structuredContentFolderId": 56054,
+   "subscribed": false,
+   "taxonomyCategoryBriefs": [
+    {
+     "taxonomyCategoryId": 57693,
+     "taxonomyCategoryName": "Regional",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "96e42ba7-02e4-aebe-06e9-2e2b9fa2253e",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57721,
+     "taxonomyCategoryName": "Ribatejo",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "f5a999d7-b2d4-2767-4681-dab61b51a102",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57724,
+     "taxonomyCategoryName": "Estremadura",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "62ab22e9-3641-efea-1085-c350c318f63f",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57807,
+     "taxonomyCategoryName": "Centro",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "1ee1b5fd-4648-e1d9-5443-a0efd05fd748",
+      "siteKey": "Guest"
+     }
+    }
+   ],
+   "title": {
+    "en-US": "Oeste line – Resumption of trains and replacement bus services – 15 November 2026 | CP",
+    "pt-PT": "L. Oeste - Retoma circulação e transbordo - 15 novembro 2026 | CP"
+   },
+   "description": {
+    "en-US": "",
+    "pt-PT": ""
+   },
+   "contentFields": {
+    "en-US": [
+     {
+      "contentFieldValue": {
+       "data": "Oeste line – Resumption of trains and replacement bus service"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "15 November 2026."
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "true"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-02T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": ""
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>On 15 November, rail services on the Oeste line will resume between Torres Vedras and Caldas da Rainha, following the completion of infrastructure repair works carried out by Infraestruturas de Portugal.<br>\n<br>\nA replacement bus service is operating between Mira Sintra-Meleças ↔ Torres Vedras.</p>\n\n<p><b>See </b><a href=\"https://cp.pt/info/documents/d/cp/regionais-lisboa-figueira-da-foz-oeste-15novembro\" target=\"_blank\">timetables</a><b> and </b><a href=\"https://cp.pt/info/documents/d/cp/locais-paragem-oeste-15-11-2026-en\" target=\"_blank\">bus stop locations</a><b> in force from 15 November</b>.</p>\n\n<p>Please check the updated information <a href=\"https://www.cp.pt/info/en/w/oeste-line\">here</a>.</p>\n\n<p>&nbsp;</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>For more information, please call the customer care line (National calls: 210 900 032 (Price of a call to the fixed network according to your tariff) or 808 109 110 (Price of a local call according to your tariff, with a maximum of €0.07 + VAT for the first minute and €0.0277 + VAT for each subsequent minute on weekdays from 9 a.m. to 9 p.m. or €0.0084 + VAT from 9 p.m. to 9 a.m., weekends and public holidays, as defined by Anacom) site CP (cp.pt) or CP Customer Assistance Offices and Ticket Offices.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ],
+    "pt-PT": [
+     {
+      "contentFieldValue": {
+       "data": "Linha do Oeste - Retoma da circulação e transbordo rodoviário"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "15 de novembro de 2026"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "true"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-15T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": ""
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>No dia 15 de novembro, a circulação ferroviária na Linha do Oeste será retomada entre Torres Vedras e Caldas da Rainha, após a conclusão dos trabalhos de recuperação da infraestrutura realizados pela Infraestruturas de Portugal.<br>\n&nbsp;<br>\nEntre Mira Sintra-Meleças ↔ Torres Vedras é efetuado serviço rodoviário de substituição.</p>\n\n<p><strong>Consulte os </strong><a href=\"https://cp.pt/info/documents/d/cp/regionais-lisboa-figueira-da-foz-oeste-15novembro\" target=\"_blank\">horários</a><strong> e os </strong><a href=\"https://cp.pt/info/documents/d/cp/locais-paragem-oeste-15-11-2026\" target=\"_blank\">locais de paragem dos autocarros</a><strong> a partir de 15 de novembro.</strong><br>\n&nbsp;<br>\nToda a informação atualizada pode ser consultada&nbsp;<a href=\"https://cp.pt/info/w/linha-oeste\">aqui</a>.</p>\n\n<p>&nbsp;</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": ""
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Para mais informações, por favor consulte: Linha de Atendimento (Chamadas nacionais: 210 900 032 (Preço de uma chamada para a rede fixa de acordo com o seu tarifário) ou 808 109 110 (Preço de uma chamada local de acordo com o seu tarifário, com máximo de 0,07 € + IVA no primeiro minuto e 0,0277 € + IVA por cada minuto seguinte nos dias úteis das 9h às 21h ou 0,0084 € + IVA das 21h às 9h, fins de semana e feriados, conforme definido pela Anacom) ou Gabinetes de Apoio ao Cliente e Bilheteiras CP.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ]
+   }
+  },
+  {
+   "availableLanguages": [
+    "en-US",
+    "pt-PT"
+   ],
+   "contentStructureId": 49545,
+   "customFields": [],
+   "dateCreated": "2026-10-08T14:14:47Z",
+   "dateExpired": "2026-12-21T01:00:00Z",
+   "dateModified": "2026-11-05T15:18:37Z",
+   "datePublished": "2026-11-05T10:03:00Z",
+   "externalReferenceCode": "b1ff9bf2-b590-0d02-3863-5dd111cbc53c",
+   "friendlyUrlPath": "ap180-ic723-14-novembro-20-dezembro",
+   "id": 962745,
+   "key": "962743",
+   "keywords": [],
+   "neverExpire": false,
+   "numberOfComments": 0,
+   "priority": 178,
+   "relatedContents": [],
+   "renderedContents": [
+    {
+     "contentTemplateId": "aviso-(redirect-pwa)",
+     "contentTemplateName": "Aviso (redirect PWA)",
+     "markedAsDefault": true,
+     "renderedContentURL": "https://www.cp.pt/info/o/headless-delivery/v1.0/structured-contents/962745/rendered-content-by-display-page/aviso-(redirect-pwa)"
+    }
+   ],
+   "siteId": 20117,
+   "structuredContentFolderId": 56054,
+   "subscribed": false,
+   "taxonomyCategoryBriefs": [
+    {
+     "taxonomyCategoryId": 50540,
+     "taxonomyCategoryName": "Alfa Pendular",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "29a72221-c13c-6135-0730-b49d57272e0e",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57687,
+     "taxonomyCategoryName": "Intercidades",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "b7cd04e0-2aed-fc99-2307-dda047a21f8b",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57718,
+     "taxonomyCategoryName": "Beira Litoral",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "7c8d40f5-4a36-a17c-10fd-da88c413ef54",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57786,
+     "taxonomyCategoryName": "Lisboa - Porto",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "73b6f06f-7c43-d008-4ea0-3bb35708d43a",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57822,
+     "taxonomyCategoryName": "Porto - Faro",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "c9d6ef01-c7fc-87ea-8d7f-18331d9c48b1",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57828,
+     "taxonomyCategoryName": "Lisboa - Braga",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "d57b6959-179a-db6b-df1e-7d8d82040613",
+      "siteKey": "Guest"
+     }
+    }
+   ],
+   "title": {
+    "en-US": "Long-haul - North line replacement bus service - 14 November to 20 December | CP",
+    "pt-PT": "Longo Curso - Transbordos na Linha do Norte - 14 de novembro a 20 de dezembro | CP"
+   },
+   "description": {
+    "en-US": "<p>See the information on replacement bus services for Intercidades 723 and Alfa Pendular 180 trains on the North line on Saturdays, from 14 November to 20 December.</p>",
+    "pt-PT": "<p>Consulte a informação sobre o transbordo nos comboios Intercidades 723 e Alfa Pendular 180, na Linha do Norte, aos sábados, de 14 de novembro a 20 de dezembro.</p>"
+   },
+   "contentFields": {
+    "en-US": [
+     {
+      "contentFieldValue": {
+       "data": "North line - Long-haul - 14 November to 20 December"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "Replacement bus service - Intercidades 723 and Alfa Pendular 180"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "true"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-14T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-12-20T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Please note that due to engineering works on the North line the following replacement bus service will be in place:</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": "Intercidades 723 - Lisbon Santa Apolónia (19:30) → Braga (23:27)"
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": "<ul class=\"cp-table-list table-cc364962-2dbd-4a51-8ed6-8c04ba05ac07\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Days</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Replacement bus service between:</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><p><strong>Saturdays</strong><br>\n  14, 21, 28 November<br>\n  5, 12 and 19 December</p></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Aveiro and Porto Campanhã</div></div></div></li></ul><p> </p><ul class=\"cp-table-list table-d42c3367-ac26-4421-877e-b8022e607a96\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Station</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Bus stop</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Times 1 (a)</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Times 2 (a)</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Aveiro</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Station entrance opposite the bus terminal</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>22:04</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>22:04</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Estarreja</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Opposite the station</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">|</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">22:12</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Espinho</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Bus stop beside the library on EN 109 main road</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">|</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">22:28</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Vila Nova de Gaia</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Station square</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">|</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">22:38</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Porto Campanhã</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Rua da Estação, bus stop</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>22:43</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>22:43</strong></div></div></div></li></ul><p> </p><p>(a)-The times are indicative, as they may vary depending on traffic conditions.<br><br>\n (b)-On the Porto–Braga route, Intercidades service no. 723 uses different rolling stock than usual, as does Intercidades service no. 720 the following day. </p><p> </p><p>The replacement bus service cannot carry wheelchairs, bicycles or scooters. Small pets can be taken if they are in an appropriate container that can be carried as hand luggage.</p>"
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": "Alfa Pendular 180 - Porto Campanhã (05:40) → Faro (11:23)"
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": "<ul class=\"cp-table-list table-34ef054a-8df4-479c-ab6e-1c4746a71981\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Days</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Replacement bus service between:</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><p><strong>Sundays</strong><br>\n  15, 22, 29 November<br>\n  6, 13 and 20 December</p></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Porto Campanhã and Aveiro</div></div></div></li></ul><p> </p><ul class=\"cp-table-list table-38f4ca27-7f50-4d68-8343-b2ab163dde33\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Station</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Bus stop</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Times 1 (a)</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Time (a)</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Porto Campanhã</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Rua da Estação, bus stop</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>05:40</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>05:40</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Vila Nova de Gaia</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Station square</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">|</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">05:45</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Aveiro</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Station entrance opposite the bus terminal</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>06:16</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>06:16</strong></div></div></div></li></ul><p> </p><p>(a)-he times are indicative, as they may vary depending on traffic conditions.<br>\n  </p><p>The replacement bus service cannot carry wheelchairs, bicycles or scooters. Small pets can be taken if they are in an appropriate container that can be carried as hand luggage.</p>"
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>For more information, please call the customer care line (National calls: 210 900 032 (Price of a call to the fixed network according to your tariff) or 808 109 110 (Price of a local call according to your tariff, with a maximum of €0.07 + VAT for the first minute and €0.0277 + VAT for each subsequent minute on weekdays from 9 a.m. to 9 p.m. or €0.0084 + VAT from 9 p.m. to 9 a.m., weekends and public holidays, as defined by Anacom) site CP (cp.pt) or CP Customer Assistance Offices and Ticket Offices.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ],
+    "pt-PT": [
+     {
+      "contentFieldValue": {
+       "data": "Linha do Norte - Longo Curso - 14 de novembro a 20 de dezembro"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "Transbordo rodoviário - Intercidades 723 e Alfa Pendular 180"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "true"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-14T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-12-20T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Informamos que motivo de obras na Linha do Norte, a cargo da Metro do Porto, será efetuado o seguinte transbordo rodoviário:</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": "Intercidades 723 - Lisboa Santa Apolónia (19h30) → Braga (23h27)"
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": "<ul class=\"cp-table-list table-1b2d3947-b4b9-4a02-b529-eb019b2a2f2e\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Dias</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Serviço rodoviário<br>\n  de substituição entre:</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><p><strong>Sábados</strong><br>\n  14, 21, 28 de novembro<br>\n  5, 12 e 19 de dezembro</p></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Aveiro e Porto Campanhã</div></div></div></li></ul><p> </p><ul class=\"cp-table-list table-1840edaf-47f7-4b6f-8c3d-bd08b6c6f3c3\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Estação</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Local de paragem</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Horário 1 (a)</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Horário 2 (a)</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Aveiro</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Entrada da estação, lado do terminal rodoviário</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>22:04</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>22:04</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Estarreja</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Em frente à estação</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">|</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">22:12</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Espinho</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Paragem BUS junto à Biblioteca na Estrada Nacional 109</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">|</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">22:28</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Vila Nova de Gaia</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Largo da Estação</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">|</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">22:38</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Porto Campanhã</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Rua da Estação, paragem BUS</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>22:43</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>22:43</strong></div></div></div></li></ul><p>(a)-Os tempos de trajeto apresentados são indicativos, podendo variar em função das condições de trânsito.<br>\n (b)-No trajeto Porto-Braga o Intercidades nº 723 é efetuado por material diferente do habitual, assim como o Intercidades nº 720 do dia seguinte. </p><p><br>\n O serviço rodoviário de substituição não dispõe de condições técnicas para o transporte de cadeiras de rodas e no mesmo não é permitido o transporte de bicicletas e de trotinetas. O transporte de animais de companhia de pequeno porte é permitido se o animal viajar acondicionado em contentor apropriado que possa ser transportado como volume de mão.</p>"
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": "Alfa Pendular 180 - Porto Campanhã (05h40) → Faro (11h23)"
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": "<ul class=\"cp-table-list table-5673e690-4064-4e18-b304-ed29a4d34ff4\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Dias</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Serviço rodoviário<br>\n  de substituição entre:</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><p><strong>Domingos</strong><br>\n  15, 22, 29 de novembro<br>\n  6, 13 e 20 de dezembro</p></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Porto Campanhã e Aveiro</div></div></div></li></ul><p> </p><ul class=\"cp-table-list table-4dd892a3-9469-4240-aebf-e4515e857c2c\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Estação</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Local de paragem</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Horário 1 (a)</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Horário (a)</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Porto Campanhã</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Rua da Estação, paragem BUS</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>05:40</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>05:40</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Vila Nova de Gaia</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Largo da Estação</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">|</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">05:45</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Aveiro</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Entrada da estação, lado do terminal rodoviário</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>06:16</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>06:16</strong></div></div></div></li></ul><p>(a)-Os tempos de trajeto apresentados são indicativos, podendo variar em função das condições de trânsito. </p><p><br>\n O serviço rodoviário de substituição não dispõe de condições técnicas para o transporte de cadeiras de rodas e no mesmo não é permitido o transporte de bicicletas e de trotinetas. O transporte de animais de companhia de pequeno porte é permitido se o animal viajar acondicionado em contentor apropriado que possa ser transportado como volume de mão.</p>"
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Para mais informações, por favor consulte: <strong>Linha de Atendimento</strong> (Chamadas nacionais: <strong>210 900 032</strong> (Preço de uma chamada para a rede fixa de acordo com o seu tarifário), <strong>808 109 110</strong> (Preço de uma chamada local de acordo com o seu tarifário, com máximo de 0,07€ + IVA no primeiro minuto e 0,0277€ + IVA por cada minuto seguinte nos dias úteis das 9h às 21h ou 0,0084€ + IVA das 21h às 9h, fins de semana e feriados, conforme definido pela Anacom)), <strong>Gabinetes de Apoio ao Cliente</strong> ou <strong>Bilheteiras CP</strong>.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ]
+   }
+  },
+  {
+   "availableLanguages": [
+    "en-US",
+    "pt-PT"
+   ],
+   "contentStructureId": 49545,
+   "customFields": [],
+   "dateCreated": "2026-08-21T16:20:53Z",
+   "dateExpired": "2026-12-14T03:00:00Z",
+   "dateModified": "2026-11-13T16:59:37Z",
+   "datePublished": "2026-09-08T14:13:00Z",
+   "externalReferenceCode": "915386",
+   "friendlyUrlPath": "tranbordo-529-12setembro-17outubro",
+   "id": 915388,
+   "key": "915386",
+   "keywords": [],
+   "neverExpire": false,
+   "numberOfComments": 0,
+   "priority": 177,
+   "relatedContents": [],
+   "renderedContents": [
+    {
+     "contentTemplateId": "aviso-(redirect-pwa)",
+     "contentTemplateName": "Aviso (redirect PWA)",
+     "markedAsDefault": true,
+     "renderedContentURL": "https://www.cp.pt/info/o/headless-delivery/v1.0/structured-contents/915388/rendered-content-by-display-page/aviso-(redirect-pwa)"
+    }
+   ],
+   "siteId": 20117,
+   "structuredContentFolderId": 56054,
+   "subscribed": false,
+   "taxonomyCategoryBriefs": [
+    {
+     "taxonomyCategoryId": 50508,
+     "taxonomyCategoryName": "Douro Litoral",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "9d471628-9a1d-b494-deea-01f6328e2467",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57687,
+     "taxonomyCategoryName": "Intercidades",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "b7cd04e0-2aed-fc99-2307-dda047a21f8b",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57721,
+     "taxonomyCategoryName": "Ribatejo",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "f5a999d7-b2d4-2767-4681-dab61b51a102",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57724,
+     "taxonomyCategoryName": "Estremadura",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "62ab22e9-3641-efea-1085-c350c318f63f",
+      "siteKey": "Guest"
+     }
+    },
+    {
+     "taxonomyCategoryId": 57786,
+     "taxonomyCategoryName": "Lisboa - Porto",
+     "taxonomyCategoryReference": {
+      "externalReferenceCode": "73b6f06f-7c43-d008-4ea0-3bb35708d43a",
+      "siteKey": "Guest"
+     }
+    }
+   ],
+   "title": {
+    "en-US": "Intercidades 529 - Replacement Bus Service - until 13 December",
+    "pt-PT": "Intercidades - Transbordo - IC 529 - até 13 de dezembro | CP"
+   },
+   "description": {
+    "en-US": "<p>See the information regarding the replacement bus service for the Intercidades 529 on the Northern line, until 13 December</p>",
+    "pt-PT": "<p>Consulte a informação sobre o transbordo do Intercidades 529, na Linha do Norte, até 13 de dezembro.</p>"
+   },
+   "contentFields": {
+    "en-US": [
+     {
+      "contentFieldValue": {
+       "data": "North line - Intercidades - until 13 December"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "Replacement bus service"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "true"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-01T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-12-13T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p style=\"text-align:justify\">Engineering works on the North line mean there will be the following replacement bus service:</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": "Intercidades 529 - Lisboa Sta. Apolónia (22:30) → Porto Campanhã (01:43)"
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": "<ul class=\"cp-table-list table-0eb76e28-c52e-48fb-8f41-8b69e0008acf\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Transfer days</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Replacement bus service between:</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><p><br>\n  15, 21, 22, 28 and 29 November</p>\n<p>1, 2, 3, 4, 5, 6 and 13 December</p></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Pombal and Porto Campanhã</div></div></div></li></ul><p> </p><p><strong>Intercidades train 529 departs from Lisbon Santa Apolónia at 10:30 p.m. on the previous day.</strong></p><p>On the Lisbon–Pombal route, the Intercidades 529 may use different rolling stock than usual, as may the Intercidades 528 on the same days.</p><ul class=\"cp-table-list table-bde43c88-255b-4518-b985-dada21623e5b\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Station</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Bus stop</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Times (a)</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Pombal</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Largo Salgueiro Maia (Station square)</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">00:08</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Coimbra B</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Rua do Padrão (SMTUC bus stop beside Politáxis - under the IC2 viaduct)</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">00:50</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Aveiro</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Station entrance beside the bus terminal</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">01:20</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Ovar</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Car park / Rua dos Ferroviários</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">01:30</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Espinho</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Bus stop beside the library on EN 109</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">01:45</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Vila Nova de Gaia</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Station square</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">01:50</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Porto Campanhã</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Station road bus stop</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>01:55</strong></div></div></div></li></ul><p> </p><p><strong>(a) </strong>- The bus stop and journey times are indicative as they may vary depending on traffic conditions. </p><p>The replacement bus service cannot carry wheelchairs, bicycles or scooters. Small pets can be taken if they are in an appropriate container that can be carried as hand luggage.</p>"
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>For more information, please call the customer care line (National calls: 210 900 032 (Price of a call to the fixed network according to your tariff) or 808 109 110 (Price of a local call according to your tariff, with a maximum of €0.07 + VAT for the first minute and €0.0277 + VAT for each subsequent minute on weekdays from 9 a.m. to 9 p.m. or €0.0084 + VAT from 9 p.m. to 9 a.m., weekends and public holidays, as defined by Anacom) site CP (cp.pt) or CP Customer Assistance Offices and Ticket Offices.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ],
+    "pt-PT": [
+     {
+      "contentFieldValue": {
+       "data": "Linha do Norte - Intercidades 529 - até 13 de dezembro"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Título conteúdo",
+      "name": "Text48691729",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "Transbordo rodoviário"
+      },
+      "dataType": "string",
+      "inputControl": "text",
+      "label": "Lead",
+      "name": "Campo69402820",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "true"
+      },
+      "dataType": "boolean",
+      "inputControl": "checkbox",
+      "label": "Destaque",
+      "name": "Checkbox33013581",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-11-01T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de início",
+      "name": "Date35268359",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "2026-12-13T00:00:00Z"
+      },
+      "dataType": "date",
+      "label": "Data de fim",
+      "name": "Field40441023",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p style=\"text-align:justify\">Informamos que por motivo de obras na Linha do Norte, a cargo da IP - Infraestruturas de Portugal, será efetuado o seguinte transbordo rodoviário:</p>"
+      },
+      "dataType": "string",
+      "label": "Texto",
+      "name": "RichText98970637",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "",
+      "label": "ItemListaColapsável_FS",
+      "name": "Fieldset68796724",
+      "nestedContentFields": [
+       {
+        "contentFieldValue": {
+         "data": "Intercidades 529 - Lisboa Sta. Apolónia (22h30) → Porto Campanhã (01h43)"
+        },
+        "dataType": "string",
+        "inputControl": "text",
+        "label": "Título do Item",
+        "name": "Text08554120",
+        "nestedContentFields": [],
+        "repeatable": false
+       },
+       {
+        "contentFieldValue": {
+         "data": "<ul class=\"cp-table-list table-dd19672c-5b31-4eba-8f18-dec200c39765\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Data Transbordo</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Serviço rodoviário<br>\n  de substituição entre:</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><p> </p>\n<p>15, 21, 22, 28 e 29 de novembro<br>\n  1, 2, 3, 4, 5, 6 e 13 de dezembro<br>\n   </p></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Pombal e Porto Campanhã</div></div></div></li></ul><p> </p><p><strong>O Intercidades 529 tem partida de Lisboa Santa Apolónia às 22h30 do dia anterior.</strong></p><p> </p><p>No trajeto Lisboa – Pombal pode ser efetuado com material diferente do habitual assim como o Intercidades 528 dos mesmos dias.</p><p> </p><ul class=\"cp-table-list table-e5419aec-21be-4721-852e-fce838c36377\"><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Estação</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Local de paragem</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Horário (a)</strong></div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Pombal</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Largo Salgueiro Maia (Largo da estação)</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">00:08</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Coimbra B</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Rua do Padrão (paragem dos SMTUC junto à Politáxis - debaixo do viaduto do IC2)</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">00:50</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Aveiro</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Entrada da estação, lado do terminal rodoviário</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">01:20</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Ovar</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Parque de estacionamento/ Rua dos Ferroviários</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">01:30</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Espinho</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Paragem BUS junto à Biblioteca na Estrada Nacional 109</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">01:45</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Vila Nova de Gaia</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Largo da Estação</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">01:50</div></div></div></li><li class=\"cp-table-item\"><div class=\"cp-table-content\"><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>Porto Campanhã</strong></div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\">Rua da Estação, paragem BUS</div></div><div class=\"column\"><div class=\"cp-table-header\"></div><div class=\"cp-body\"><strong>01:55</strong></div></div></div></li></ul><p> </p><p><strong>(a) </strong>- Os horários de paragem dos autocarros e os tempos de trajeto apresentados são indicativos, podendo variar em função das condições de trânsito.</p><p> </p><p>O serviço rodoviário de substituição não dispõe de condições técnicas para o transporte de cadeiras de rodas e no mesmo não é permitido o transporte de bicicletas e de trotinetas. O transporte de animais de companhia de pequeno porte é permitido se o animal viajar acondicionado em contentor apropriado que possa ser transportado como volume de mão.</p>"
+        },
+        "dataType": "string",
+        "label": "Texto do Item",
+        "name": "RichText08222223",
+        "nestedContentFields": [],
+        "repeatable": false
+       }
+      ],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "data": "<p>Para mais informações, por favor consulte: <strong>Linha de Atendimento</strong> (Chamadas nacionais: <strong>210 900 032</strong> (Preço de uma chamada para a rede fixa de acordo com o seu tarifário) ou <strong>808 109 110</strong> (Preço de uma chamada local de acordo com o seu tarifário, com máximo de 0,07 € + IVA no primeiro minuto e 0,0277 € + IVA por cada minuto seguinte nos dias úteis das 9h às 21h ou 0,0084 € + IVA das 21h às 9h, fins de semana e feriados, conforme definido pela Anacom), <strong>Gabinetes de Apoio ao Cliente</strong> ou <strong>Bilheteiras CP</strong>.</p>"
+      },
+      "dataType": "string",
+      "label": "Nota de rodapé",
+      "name": "RichText02523854",
+      "nestedContentFields": [],
+      "repeatable": false
+     },
+     {
+      "contentFieldValue": {},
+      "dataType": "structuredContent",
+      "label": "Comboio",
+      "name": "JournalArticle66157978",
+      "nestedContentFields": [],
+      "repeatable": true
+     },
+     {
+      "contentFieldValue": {
+       "geo": {
+        "latitude": "NaN",
+        "longitude": "NaN"
+       },
+       "data": ""
+      },
+      "dataType": "geolocation",
+      "label": "Posição geográfica",
+      "name": "Geolocation47306908",
+      "nestedContentFields": [],
+      "repeatable": false
+     }
+    ]
+   }
+  }
+ ],
+ "maxPages": 0,
+ "total": 21,
+ "itensPage": -1,
+ "page": 1
+}
