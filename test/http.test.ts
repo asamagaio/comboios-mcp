@@ -115,3 +115,55 @@ describe("caching and rate limiting", () => {
     expect(waits).toEqual([1000, 1000]);
   });
 });
+
+describe("CP 429 circuit breaker", () => {
+  function setup(statuses: number[]) {
+    let t = 1_000_000;
+    let calls = 0;
+    const fetchImpl = async (url: string) => {
+      if (url.includes("fe-config")) return new Response(JSON.stringify(FAKE_CONFIG));
+      const status = statuses[Math.min(calls, statuses.length - 1)];
+      calls++;
+      return new Response(status === 200 ? "[]" : JSON.stringify({ httpMessage: "Access Denied" }), { status });
+    };
+    const http = new CpHttp({ fetch: fetchImpl, now: () => t, sleep: instant, limiter: new RateLimiter(1e6, 1e6, () => t, instant) });
+    return { http, calls: () => calls, advance: (ms: number) => (t += ms) };
+  }
+
+  it("pauses after a 429 and answers without calling CP", async () => {
+    const s = setup([429]);
+    await expect(s.http.gateway("travel", "/rules")).rejects.toMatchObject({ code: "CP_UNAVAILABLE", httpStatus: 503 });
+    await expect(s.http.gateway("travel", "/stations")).rejects.toMatchObject({ code: "CP_UNAVAILABLE", details: { retry_after_seconds: 600 } });
+    expect(s.calls()).toBe(1);
+  });
+
+  it("probes once after the pause, doubles it on another refusal, and recovers on success", async () => {
+    const s = setup([429, 429, 200]);
+    await expect(s.http.gateway("travel", "/rules")).rejects.toMatchObject({ code: "CP_UNAVAILABLE" });
+    s.advance(10 * 60 * 1000);
+    await expect(s.http.gateway("travel", "/rules")).rejects.toMatchObject({ code: "CP_UNAVAILABLE" }); // probe refused
+    expect(s.calls()).toBe(2);
+    s.advance(10 * 60 * 1000); // still inside the doubled 20 min pause
+    await expect(s.http.gateway("travel", "/rules")).rejects.toMatchObject({ code: "CP_UNAVAILABLE" });
+    expect(s.calls()).toBe(2);
+    s.advance(10 * 60 * 1000);
+    await expect(s.http.gateway("travel", "/rules")).resolves.toEqual([]); // probe accepted
+    await expect(s.http.gateway("travel", "/stations")).resolves.toEqual([]);
+    expect(s.calls()).toBe(4);
+  });
+
+  it("lets only one request probe at a time", async () => {
+    const s = setup([429, 200]);
+    await expect(s.http.gateway("travel", "/rules")).rejects.toBeDefined();
+    s.advance(10 * 60 * 1000);
+    const results = await Promise.allSettled([s.http.gateway("travel", "/a"), s.http.gateway("travel", "/b"), s.http.gateway("travel", "/c")]);
+    expect(results.filter((r) => r.status === "fulfilled").length).toBe(1);
+    expect(s.calls()).toBe(2);
+  });
+
+  it("does not touch alerts or other non-gateway calls", async () => {
+    const s = setup([429]);
+    await expect(s.http.gateway("travel", "/rules")).rejects.toBeDefined();
+    await expect(s.http.plainJson("https://www.cp.pt/fe-config.json")).resolves.toMatchObject({ xcck: "test-id" });
+  });
+});

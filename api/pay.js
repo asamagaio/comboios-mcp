@@ -6,7 +6,7 @@ export const config = { maxDuration: 30 };
 const NO_STORE = { "Cache-Control": "no-store" };
 
 function errorOut(res, e) {
-  const status = e?.httpStatus && e.httpStatus >= 400 && e.httpStatus < 500 ? e.httpStatus : e?.code === "INVALID_INPUT" || e?.code === "INVALID_TOKEN" ? 400 : 502;
+  const status = e?.code === "CP_UNAVAILABLE" ? 503 : e?.httpStatus && e.httpStatus >= 400 && e.httpStatus < 500 ? e.httpStatus : e?.code === "INVALID_INPUT" || e?.code === "INVALID_TOKEN" ? 400 : 502;
   sendJson(res, status, { error: e?.message ?? "Error", code: e?.code ?? "ERROR" }, NO_STORE);
 }
 

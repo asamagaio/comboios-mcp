@@ -34,10 +34,67 @@ export interface CpHttpDeps {
   limiter?: RateLimiter;
 }
 
-/** The single HTTP entry point: headers, timeout, retries, rate limiting, caching, 401 refresh. */
+/** Pause after CP refuses us (429): 10 min, doubling on each refusal up to 1 h. */
+const BREAKER_BASE_MS = 10 * 60 * 1000;
+const BREAKER_MAX_MS = 60 * 60 * 1000;
+
+export const CP_UNAVAILABLE_MESSAGE =
+  "A CP não está a aceitar pedidos deste serviço neste momento. Tente mais tarde ou use cp.pt. " +
+  "(CP is not accepting requests from this service right now; try again later or use cp.pt.)";
+
+/**
+ * Circuit breaker for CP's api-gateway. When CP answers 429, stop calling it for a while instead of
+ * repeating the request for every user; after the pause one request probes again.
+ */
+export class CpBreaker {
+  private openUntil = 0;
+  private pauseMs = 0;
+  private probing = false;
+
+  constructor(private readonly now: () => number = Date.now) {}
+
+  /** Throws while open. After the pause, lets exactly one request through as a probe. */
+  check(): void {
+    const t = this.now();
+    if (this.pauseMs === 0) return;
+    if (t < this.openUntil || this.probing) throw this.error();
+    this.probing = true;
+  }
+
+  /** The probe failed for a reason other than a refusal (network, config): let the next request probe. */
+  release(): void {
+    this.probing = false;
+  }
+
+  success(): void {
+    if (this.pauseMs) log.info("CP accepted requests again; resuming");
+    this.pauseMs = 0;
+    this.openUntil = 0;
+    this.probing = false;
+  }
+
+  refused(): CpError {
+    this.pauseMs = this.pauseMs ? Math.min(this.pauseMs * 2, BREAKER_MAX_MS) : BREAKER_BASE_MS;
+    this.openUntil = this.now() + this.pauseMs;
+    this.probing = false;
+    log.warn(`CP refused requests (429); pausing calls for ${Math.round(this.pauseMs / 60000)} min`);
+    return this.error();
+  }
+
+  get retryAfterSeconds(): number {
+    return Math.max(0, Math.ceil((this.openUntil - this.now()) / 1000));
+  }
+
+  private error(): CpError {
+    return new CpError("CP_UNAVAILABLE", CP_UNAVAILABLE_MESSAGE, 503, { retry_after_seconds: this.retryAfterSeconds });
+  }
+}
+
+/** The single HTTP entry point: headers, timeout, retries, rate limiting, caching, 401 refresh, 429 breaker. */
 export class CpHttp {
   readonly config: ConfigStore;
   readonly cache: TtlCache;
+  readonly breaker: CpBreaker;
   private readonly fetchImpl: FetchLike;
   private readonly sleep: (ms: number) => Promise<void>;
   private readonly limiter: RateLimiter;
@@ -48,6 +105,7 @@ export class CpHttp {
     this.sleep = deps.sleep ?? ((ms) => new Promise((r) => setTimeout(r, ms)));
     this.limiter = deps.limiter ?? new RateLimiter(1, 3, now, this.sleep);
     this.cache = new TtlCache(now);
+    this.breaker = new CpBreaker(now);
     this.config = new ConfigStore(
       () => this.plainJson(FE_CONFIG_URL, { retry: true }),
       now,
@@ -63,14 +121,32 @@ export class CpHttp {
   }
 
   private async gatewayUncached<T>(api: Api, path: string, opts: RequestOptions): Promise<T> {
-    let loaded = await this.config.get();
+    this.breaker.check();
+    let loaded: Awaited<ReturnType<ConfigStore["get"]>>;
+    try {
+      loaded = await this.config.get();
+    } catch (err) {
+      this.breaker.release(); // not a CP refusal; free the probe slot if we held one
+      throw err;
+    }
     for (let attempt = 0; attempt < 2; attempt++) {
       const url = buildUrl(baseUrl(loaded.config, api), path, opts.query);
-      const res = await this.send(url, {
-        method: opts.method ?? "GET",
-        headers: { ...gatewayHeaders(loaded.config, api, opts.body !== undefined), ...(opts.headers ?? {}) },
-        body: opts.body !== undefined ? JSON.stringify(opts.body) : undefined,
-      }, opts.retry ?? true);
+      let res: Response;
+      try {
+        res = await this.send(url, {
+          method: opts.method ?? "GET",
+          headers: { ...gatewayHeaders(loaded.config, api, opts.body !== undefined), ...(opts.headers ?? {}) },
+          body: opts.body !== undefined ? JSON.stringify(opts.body) : undefined,
+        }, opts.retry ?? true);
+      } catch (err) {
+        this.breaker.release(); // network trouble is not a refusal
+        throw err;
+      }
+      if (res.status === 429) {
+        await drain(res);
+        throw this.breaker.refused();
+      }
+      this.breaker.success();
       if (res.status === 401) {
         await drain(res);
         if (attempt === 0) {

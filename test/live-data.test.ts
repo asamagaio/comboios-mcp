@@ -99,6 +99,16 @@ describe("estado_comboio", () => {
     expect(calls.find((c) => c.url.includes("infraestruturas"))!.headers["User-Agent"]).toContain("Chrome");
   });
 
+  it("falls back to Infraestruturas de Portugal while CP refuses requests (429)", async () => {
+    const { cp } = makeCp([
+      on(/travel-api\/(stations|trains)/, { httpMessage: "Access Denied" }, 429),
+      on("horarios-ncombio/723/", fixture("ip-train-723")),
+    ]);
+    const out: any = await trainStatus(cp, { train_number: 723, date: "2026-11-22" });
+    expect(out.source).toBe("infraestruturas_de_portugal");
+    expect(out.stops.length).toBeGreaterThan(5);
+  });
+
   it("surfaces the CP error when the fallback has no data either", async () => {
     const { cp } = makeCp([
       on("/trains/1/timetable/", { moreInformation: "boom" }, 500),

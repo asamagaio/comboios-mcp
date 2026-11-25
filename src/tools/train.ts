@@ -116,8 +116,9 @@ async function lookup(cp: CpService, trainNumber: number, date: string, names: (
 
 export async function trainStatus(cp: CpService, a: TrainArgs) {
   if (!Number.isInteger(a.train_number) || a.train_number <= 0) throw new CpError("INVALID_INPUT", "train_number must be a positive integer");
-  const index = await cp.stations();
-  const names = (code: string | null) => (code ? index.byCode.get(code)?.name ?? null : null);
+  // Station names are a nicety; if CP is unavailable, carry on so the IP fallback can answer.
+  const index = await cp.stations().catch(() => null);
+  const names = (code: string | null) => (code && index ? index.byCode.get(code)?.name ?? null : null);
   const date = await cp.validateDate(a.date, { minOffset: -1 });
   const today = await lookup(cp, a.train_number, date, names);
 
